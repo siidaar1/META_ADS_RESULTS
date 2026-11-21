@@ -1,0 +1,674 @@
+{
+  "id": "2026-11-21_12-38-10_sample_urls",
+  "name": "sample_urls",
+  "created": "2026-11-21T12:38:10",
+  "updated": "2026-11-21T12:39:43",
+  "status": "done",
+  "options": {
+    "country": "ALL",
+    "active": "all",
+    "max_ads": 100,
+    "headless": true
+  },
+  "counts": {
+    "total": 6,
+    "checked": 6,
+    "found": 5,
+    "no_ads": 1,
+    "errors": 0
+  },
+  "items": [
+    {
+      "url": "https://carnexa.co",
+      "query": "carnexa.co",
+      "state": "done",
+      "found": true,
+      "count": 3,
+      "total": "~3 results",
+      "ads": [
+        {
+          "library_id": "1122998486738668",
+          "status": "Active",
+          "started": "Sep 18, 2026",
+          "days": 64,
+          "page_name": "Car Nexa",
+          "text": "Your steering wheel deserves an upgrade 🚗🔥 Tired of a slippery, uncomfortable steering wheel? Upgrade your driving experience with our Premium Steering Wheel Cover — designed for better grip, comfort and a sporty look. ✅ Improved grip & control ✅ Soft & comfortable material ✅ Protects your original steering wheel ✅ Easy to install ✅ Fits most standard steering wheels 🚚 FREE DELIVERY across UAE 💵 CASH ON DELIVERY AVAILABLE 👉 Order yours today & upgrade your drive 0:00 / 0:21 CARNEXA.CO",
+          "headline": "Premium comfort and improved grip for a better driving experience.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPjCrZrebkup1u5dqaRiM58mnHvJANEYy2qenywBcGW9PPQqozFJkCZeBbkKgqfkfP6ARR_aKkunAKF1B0tXmUxGIQGBoE5FhF3W7Rt6g.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=j0hmzq7SOlYQ7kNvwEK5cgi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjIzOTYxMzE5MzU1MjAyOSwiYXNzZXRfYWdlX2RheXMiOjEwMywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQN8IBu3vIqwDe1iroi0IEVEYbxX-Zhktl3Z9I9IQul-Q&oe=6B0764DB",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPjCrZrebkup1u5dqaRiM58mnHvJANEYy2qenywBcGW9PPQqozFJkCZeBbkKgqfkfP6ARR_aKkunAKF1B0tXmUxGIQGBoE5FhF3W7Rt6g.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=j0hmzq7SOlYQ7kNvwEK5cgi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjIzOTYxMzE5MzU1MjAyOSwiYXNzZXRfYWdlX2RheXMiOjEwMywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQN8IBu3vIqwDe1iroi0IEVEYbxX-Zhktl3Z9I9IQul-Q&oe=6B0764DB",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/815018546_1443282771028660_403151597020772496_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IqjjAgjHNQMQ7kNvwE9iRRP&_nc_oc=AdoBjRB9PC5rbTABKr3sZ1i-07wZiAWZEM5WbKOLt508LuS8lnXOOk-fBfJpZqUoBPk&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&oh=00_AQQoWpxbaHXWS1GPan6JmOAwhQiycngO-4L7EhAdfCKmiw&oe=6B0769C7"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/815018546_1443282771028660_403151597020772496_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IqjjAgjHNQMQ7kNvwE9iRRP&_nc_oc=AdoBjRB9PC5rbTABKr3sZ1i-07wZiAWZEM5WbKOLt508LuS8lnXOOk-fBfJpZqUoBPk&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&oh=00_AQQoWpxbaHXWS1GPan6JmOAwhQiycngO-4L7EhAdfCKmiw&oe=6B0769C7",
+          "images": [],
+          "destination": "https://carnexa.co/products/premium-sporty-universal-steering-wheel-cover-anti-slip-neppa-leather",
+          "link": "https://www.facebook.com/ads/library/?id=1122998486738668"
+        },
+        {
+          "library_id": "1451143263599292",
+          "status": "Active",
+          "started": "Sep 18, 2026",
+          "days": 64,
+          "page_name": "Car Nexa",
+          "text": "Turn your car into a cleaner, more organized space! Tired of cups, tissues and small items taking over your car? 😩 Meet the Premium Car Seat Organizer — designed to give you extra storage without sacrificing style. ✨ Dual cup holders 🧻 Built-in tissue box holder 📦 Extra storage space 💎 Premium luxury design 🔧 Easy installation — no tools needed Perfect for daily driving, family trips & keeping your car looking neat. 🇦🇪 FREE DELIVERY ACROSS UAE 💵 CASH ON DELIVERY AVAILABLE 👉 Order yours today before stock runs out! 0:00 / 0:21 CARNEXA.CO",
+          "headline": "MORE SPACE. MORE STYLE. MORE CONVENIENCE.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMj1qwO7VOm7uEBPBDDqz315PU9rhHdsWLi9rVvqSKUtuDP7sge9NpP4tOweu0mDrCquf_pSV4ZSX5GrHo4IrLHvB66sZr_c-xkDsy9rQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=KPv0C6aZiLEQ7kNvwEJ9nl5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6ODQ1NDgyNTQxODYzNDY0LCJhc3NldF9hZ2VfZGF5cyI6MTAxLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSu-QTM5mpbA_X-e8fS6wOKdwi2GXiNJ-sg9mc4n9ZR1w&oe=6B077634",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMj1qwO7VOm7uEBPBDDqz315PU9rhHdsWLi9rVvqSKUtuDP7sge9NpP4tOweu0mDrCquf_pSV4ZSX5GrHo4IrLHvB66sZr_c-xkDsy9rQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=KPv0C6aZiLEQ7kNvwEJ9nl5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6ODQ1NDgyNTQxODYzNDY0LCJhc3NldF9hZ2VfZGF5cyI6MTAxLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSu-QTM5mpbA_X-e8fS6wOKdwi2GXiNJ-sg9mc4n9ZR1w&oe=6B077634",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/814768768_1945165116888026_8422029167336911910_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iHO-T71VSA0Q7kNvwHptKi2&_nc_oc=AdoOQSKGUDADq-KYnr-pQuqznGvTf5oSEZMV8nkinIXoaopIgDFMNxgAbxk4G9QYKzg&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&oh=00_AQSIP-h6De-albz0CfB7-CLzoT_wedZfAQ_8BHPiJColdA&oe=6B0762BC"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/814768768_1945165116888026_8422029167336911910_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iHO-T71VSA0Q7kNvwHptKi2&_nc_oc=AdoOQSKGUDADq-KYnr-pQuqznGvTf5oSEZMV8nkinIXoaopIgDFMNxgAbxk4G9QYKzg&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&oh=00_AQSIP-h6De-albz0CfB7-CLzoT_wedZfAQ_8BHPiJColdA&oe=6B0762BC",
+          "images": [],
+          "destination": "https://carnexa.co/products/car-rear-seat-storage-organizer-with-tissue-box-tidy-bag-hooks-phone-amp-adjustable-cup-holders",
+          "link": "https://www.facebook.com/ads/library/?id=1451143263599292"
+        },
+        {
+          "library_id": "1609773674125082",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Car Nexa",
+          "text": "POV: I was tired of my car looking messy all the time. Drinks everywhere, tissues falling, and nowhere to keep my phone or wallet. 😅 Then I found this Premium Car Armrest Organizer... and honestly, it made such a difference. ✨ Everything has its place now. 🥤 Cup holders for my drinks. 🧻 Built-in tissue holder. 📱 Extra storage for my daily essentials. 😍 Plus, it gives my car a much more premium look. If you spend a lot of time driving, you'll love this! 🚚 Free Delivery Across UAE 💵 Cash on Delivery Available Order yours before it's sold out! 0:00 / 0:16 CARNEXA.CO",
+          "headline": "Keep your car neat, organized, and stylish with one simple upgrade. Premium leather finish, extra storage, cup holders, and a built-in tissue holder—all designed for everyday convenience. 🚚 Free Delivery Across UAE | 💵 Cash on Delivery Available",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMRtrJ-mMzNb5tiZIRBz_aECvTtcbsvjFf1I22GZwQoSjrD9qfWZlOBuA_Qx-NL7xviCEkJFYLa1QpN17KTB30ltM967oI_5pvIULtwcA.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=jp4MbBYJvgcQ7kNvwGyu2nz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTgyMzIwMjk5OTA0ODc5MiwiYXNzZXRfYWdlX2RheXMiOjEwOCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjE2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSuFhFlCmPK2hy_wCzz6mM5Q_WphrRHJ8FvFLO4gbUVOg&oe=6B077AE6",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMRtrJ-mMzNb5tiZIRBz_aECvTtcbsvjFf1I22GZwQoSjrD9qfWZlOBuA_Qx-NL7xviCEkJFYLa1QpN17KTB30ltM967oI_5pvIULtwcA.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=jp4MbBYJvgcQ7kNvwGyu2nz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTgyMzIwMjk5OTA0ODc5MiwiYXNzZXRfYWdlX2RheXMiOjEwOCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjE2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSuFhFlCmPK2hy_wCzz6mM5Q_WphrRHJ8FvFLO4gbUVOg&oe=6B077AE6",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/814493557_1969027503769358_4915354123475018303_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lS95l7DXdHUQ7kNvwGV5Ig0&_nc_oc=Adq3RoMsDzKkI8E86K83fhyOW8bipOj1uEJ8PoUzqkr-QE-0eTHzGpg-ZSucaGmpp3U&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&oh=00_AQSn6HBJSw6s_J5W-1oo-nv6l9jfos620haaSO0lmBSajA&oe=6B075F24"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/814493557_1969027503769358_4915354123475018303_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lS95l7DXdHUQ7kNvwGV5Ig0&_nc_oc=Adq3RoMsDzKkI8E86K83fhyOW8bipOj1uEJ8PoUzqkr-QE-0eTHzGpg-ZSucaGmpp3U&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=gRFhAiN9_E-pMvyQb7C6kQ&_nc_ss=7f289&oh=00_AQSn6HBJSw6s_J5W-1oo-nv6l9jfos620haaSO0lmBSajA&oe=6B075F24",
+          "images": [],
+          "destination": "https://carnexa.co/products/car-arm-rest-organizer-with-cup-holder-mobile-holder-and-tissue-holder",
+          "link": "https://www.facebook.com/ads/library/?id=1609773674125082"
+        }
+      ],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=carnexa.co&search_type=keyword_exact_phrase",
+      "detail": "~3 results",
+      "captured": "2026-11-21T12:38:10",
+      "checked": "2026-11-21T12:38:10"
+    },
+    {
+      "url": "https://rukn.store",
+      "query": "rukn.store",
+      "state": "done",
+      "found": true,
+      "count": 7,
+      "total": "~7 results",
+      "ads": [
+        {
+          "library_id": "1673832604300409",
+          "status": "Active",
+          "started": "Oct 7, 2026",
+          "days": 45,
+          "page_name": "Rukn",
+          "text": "🧔 Your beard deserves more than just a comb. Meet the RUKN Premium Beard Grooming Kit — everything you need for a cleaner, softer and better-groomed beard in one premium set. ✨ Beard Wash 🌿 Beard Oil 💈 Beard Balm 🪮 Wooden Comb 🧔 Boar Bristle Brush ✂️ Stainless Steel Scissors Perfect for your daily grooming routine or as a premium gift for any bearded man. 🚚 FREE DELIVERY ALL OVER UAE 💵 CASH ON DELIVERY AVAILABLE Upgrade your beard game with RUKN. https://rukn.store/products/premium-beard-grooming-kit-for-men-complete-beard-care-set-with-beard-wash-beard-oil-beard-balm-wooden-comb-boar-bristle-",
+          "headline": "Premium Beard Grooming Kit for Men",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMkJp53xgCqHPZ-Bi8ytcd4j9i_oZftl2oFodXNWy1cziqTr0BAD1HvuSuM80qF5XBVVYdRlSxTgRVVbtJLYVvZwB6EZNOviuMe0b2XSg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=ZXQeKWvwWyYQ7kNvwEvjh03&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjQ3MjQ5OTM5NjU0OTc1MywiYXNzZXRfYWdlX2RheXMiOjcwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRiUTX7BIbA1Ow8LehG_317CbLRZN9rrwlYHT8cE9-12g&oe=6B076B28",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMkJp53xgCqHPZ-Bi8ytcd4j9i_oZftl2oFodXNWy1cziqTr0BAD1HvuSuM80qF5XBVVYdRlSxTgRVVbtJLYVvZwB6EZNOviuMe0b2XSg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=ZXQeKWvwWyYQ7kNvwEvjh03&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjQ3MjQ5OTM5NjU0OTc1MywiYXNzZXRfYWdlX2RheXMiOjcwLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRiUTX7BIbA1Ow8LehG_317CbLRZN9rrwlYHT8cE9-12g&oe=6B076B28",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/838596735_1106811511861472_2886856248989296145_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7q3a-zjTSSwQ7kNvwEex-20&_nc_oc=AdogYSMfzvK7WJalrtFsc8qBVjgllJMw3GXonayws146QaFwn83ll2Xw4oMnJwQqM5U&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQRoVCrr8RjOnLNtPjOBxaxGxTRNE0wN5GQxIyb_2xc1iw&oe=6B0753D5"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/838596735_1106811511861472_2886856248989296145_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7q3a-zjTSSwQ7kNvwEex-20&_nc_oc=AdogYSMfzvK7WJalrtFsc8qBVjgllJMw3GXonayws146QaFwn83ll2Xw4oMnJwQqM5U&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQRoVCrr8RjOnLNtPjOBxaxGxTRNE0wN5GQxIyb_2xc1iw&oe=6B0753D5",
+          "images": [],
+          "destination": "https://rukn.store/products/premium-beard-grooming-kit-for-men-complete-beard-care-set-with-beard-wash-beard-oil-beard-balm-wooden-comb-boar-bristle-brush-scissors-luxury-gift-set-for-men",
+          "link": "https://www.facebook.com/ads/library/?id=1673832604300409"
+        },
+        {
+          "library_id": "1501651405114389",
+          "status": "Active",
+          "started": "Nov 10, 2026",
+          "days": 11,
+          "page_name": "Rukn",
+          "text": "🧔 Upgrade Your Beard Game with RUKN! Looking for the perfect beard grooming kit for men? Give your beard the care it deserves with the RUKN Complete Beard Grooming Kit. ✨ Everything you need for your daily beard care routine: ✅ Beard oil for a softer, healthier-looking beard ✅ Beard balm for styling and control ✅ Comb and grooming accessories ✅ Complete beard care in one convenient kit Whether you're growing your beard or keeping it neat and stylish, RUKN helps you take your grooming routine to the next level. 🚚 FREE DELIVERY ALL OVER UAE 💵 CASH ON DELIVERY AVAILABLE Order your RUKN Beard Groo",
+          "headline": "11.11 SALE IS LIVE 🔥",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMUHDxM9lCY9RlhQV5IHXt0mMC5oTgIk5d-v3A0qKGRzUYaNtMIlUKnHyo84gS1oHHIjHyadlHQBTB3ZpHfCT53U5i_e3KiqtSWBtERxg.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=I-NjgyqzPngQ7kNvwG6w6sQ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMxMTc0Nzk4MTA3NzAzNywiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Umd0Iy-G0R7PY7XUvSzh8yivxypZ81vFCJhJRGg2TEr7TVatp2ziFKeYZmMPxGgip0Xtn54B9d6Ce1fCApD6arY67x0XFseioCjUNa5uccQky9WR0zdb48Qv8nI&oh=00_AQRhKRgQd9PGAIp0GKESql25xEfrfm_FPMV0O0VGsH6-bQ&oe=6B0775B5",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMUHDxM9lCY9RlhQV5IHXt0mMC5oTgIk5d-v3A0qKGRzUYaNtMIlUKnHyo84gS1oHHIjHyadlHQBTB3ZpHfCT53U5i_e3KiqtSWBtERxg.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=I-NjgyqzPngQ7kNvwG6w6sQ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTMxMTc0Nzk4MTA3NzAzNywiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Umd0Iy-G0R7PY7XUvSzh8yivxypZ81vFCJhJRGg2TEr7TVatp2ziFKeYZmMPxGgip0Xtn54B9d6Ce1fCApD6arY67x0XFseioCjUNa5uccQky9WR0zdb48Qv8nI&oh=00_AQRhKRgQd9PGAIp0GKESql25xEfrfm_FPMV0O0VGsH6-bQ&oe=6B0775B5",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/895617931_29144381251871108_6912305787084220601_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e6gQrqU_ivkQ7kNvwGGrjua&_nc_oc=AdqZkPio8YMz5CtCrGA8jEWtYaBzSug1YYhLzUbV6tAV1DkSf5mV9vPno0iq0Wfwf7c&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQTVlj6v1BbC_R2QKRkJ4u5vp0nxh21NKBQ19UVSypZWEg&oe=6B075350"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/895617931_29144381251871108_6912305787084220601_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e6gQrqU_ivkQ7kNvwGGrjua&_nc_oc=AdqZkPio8YMz5CtCrGA8jEWtYaBzSug1YYhLzUbV6tAV1DkSf5mV9vPno0iq0Wfwf7c&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQTVlj6v1BbC_R2QKRkJ4u5vp0nxh21NKBQ19UVSypZWEg&oe=6B075350",
+          "images": [],
+          "destination": "https://rukn.store/products/beard-grooming-kit-for-men-complete-beard-care-set-with-oil-balm-comb-accessories-bonus-beard-oil",
+          "link": "https://www.facebook.com/ads/library/?id=1501651405114389"
+        },
+        {
+          "library_id": "1686263129582008",
+          "status": "Active",
+          "started": "Nov 10, 2026",
+          "days": 11,
+          "page_name": "Rukn",
+          "text": "🧔 Upgrade Your Beard Game with RUKN! Looking for the perfect beard grooming kit for men? Give your beard the care it deserves with the RUKN Complete Beard Grooming Kit. ✨ Everything you need for your daily beard care routine: ✅ Beard oil for a softer, healthier-looking beard ✅ Beard balm for styling and control ✅ Comb and grooming accessories ✅ Complete beard care in one convenient kit Whether you're growing your beard or keeping it neat and stylish, RUKN helps you take your grooming routine to the next level.",
+          "headline": "",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQPZNh7c9a5ZZabzAYbfbKC0fIAp-o3Kp207Ryg0arcMUx4H2KEqdpyiCZkzC6CV4YiS7q8hIbcfgUjrnWVeNreWeSWeKidMgPHOpSRwZg.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=LJmskjrFhtEQ7kNvwGBxY5M&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ4NTEwNjYwNjkzMDEwNSwiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Ulup9xXIP_6Q3_VV93NnH8RAPZQifsmta-7ks2JL4ilbbW9dwXUIkYJYuuR76xCUHo1ALvo9nOB8j5JCqpzrUu_tkvuAcWo9KITsUSTiHNQd7f5j8FfmbsLLgiE&oh=00_AQS0FZm77WMevToI4gSBxYC9K_qp4DKKLah57Z1rtRRJ8w&oe=6B074D41",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQPZNh7c9a5ZZabzAYbfbKC0fIAp-o3Kp207Ryg0arcMUx4H2KEqdpyiCZkzC6CV4YiS7q8hIbcfgUjrnWVeNreWeSWeKidMgPHOpSRwZg.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=LJmskjrFhtEQ7kNvwGBxY5M&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ4NTEwNjYwNjkzMDEwNSwiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Ulup9xXIP_6Q3_VV93NnH8RAPZQifsmta-7ks2JL4ilbbW9dwXUIkYJYuuR76xCUHo1ALvo9nOB8j5JCqpzrUu_tkvuAcWo9KITsUSTiHNQd7f5j8FfmbsLLgiE&oh=00_AQS0FZm77WMevToI4gSBxYC9K_qp4DKKLah57Z1rtRRJ8w&oe=6B074D41",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/902237200_1650551686866269_4196893772907446513_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XxDGSmhfSloQ7kNvwEGZoFt&_nc_oc=Adq6HoOOiT8RpYk9Ut7SybosArKq8TMsxIid6QQ_mk42vuphZj-kB4bWGAJWDsarm1M&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQRLiyu-_Sw1Z5RT1ubXiYHNpeux3q9GdhUTUEqz5T1D7g&oe=6B076CDA"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/902237200_1650551686866269_4196893772907446513_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XxDGSmhfSloQ7kNvwEGZoFt&_nc_oc=Adq6HoOOiT8RpYk9Ut7SybosArKq8TMsxIid6QQ_mk42vuphZj-kB4bWGAJWDsarm1M&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQRLiyu-_Sw1Z5RT1ubXiYHNpeux3q9GdhUTUEqz5T1D7g&oe=6B076CDA",
+          "images": [],
+          "destination": "https://rukn.store/products/beard-grooming-kit-for-men-complete-beard-care-set-with-oil-balm-comb-accessories-bonus-beard-oil?fbclid=fbclid",
+          "link": "https://www.facebook.com/ads/library/?id=1686263129582008"
+        },
+        {
+          "library_id": "1158146049896905",
+          "status": "Active",
+          "started": "Nov 10, 2026",
+          "days": 11,
+          "page_name": "Rukn",
+          "text": "🧔 Upgrade Your Beard Game with RUKN! Looking for the perfect beard grooming kit for men? Give your beard the care it deserves with the RUKN Complete Beard Grooming Kit. ✨ Everything you need for your daily beard care routine: ✅ Beard oil for a softer, healthier-looking beard ✅ Beard balm for styling and control ✅ Comb and grooming accessories ✅ Complete beard care in one convenient kit Whether you're growing your beard or keeping it neat and stylish, RUKN helps you take your grooming routine to the next level. 🚚 FREE DELIVERY ALL OVER UAE 💵 CASH ON DELIVERY AVAILABLE Order your RUKN Beard Groo",
+          "headline": "11.11 SALE IS LIVE 🔥",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMHiSk0gfbkqgqIEzbSmVT44xvQtNBeN_gO8-QHnEC8MaZmzTU1130SvPM0zjDAaD0JhWK_EtncAN0HLCApan16GyGrNanAKIzh_7E4LQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=zjzJrBy30wQQ7kNvwFKXErG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA5NzQyMDE5NjQ1MTI5OSwiYXNzZXRfYWdlX2RheXMiOjE2LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS6gztuBKky-8EORhjIs_o43wzt2YSzy38T3FxP6tmCaA&oe=6B077C6C",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMHiSk0gfbkqgqIEzbSmVT44xvQtNBeN_gO8-QHnEC8MaZmzTU1130SvPM0zjDAaD0JhWK_EtncAN0HLCApan16GyGrNanAKIzh_7E4LQ.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=zjzJrBy30wQQ7kNvwFKXErG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA5NzQyMDE5NjQ1MTI5OSwiYXNzZXRfYWdlX2RheXMiOjE2LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQS6gztuBKky-8EORhjIs_o43wzt2YSzy38T3FxP6tmCaA&oe=6B077C6C",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/903900744_4310029562462642_5761410943336577994_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EKOvJOQBORoQ7kNvwFVYm6-&_nc_oc=AdpbpTO0BS-Zcx43dLHT5pZ72W3GYP4D9t05gSn3Sgmg6cHcluj-1nZ05384vRrt2HM&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQT8orPwc3J5OvMalRtbgJtcS7Gco_kN6Y7zxSs6RQvdQg&oe=6B075E8C"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/903900744_4310029562462642_5761410943336577994_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EKOvJOQBORoQ7kNvwFVYm6-&_nc_oc=AdpbpTO0BS-Zcx43dLHT5pZ72W3GYP4D9t05gSn3Sgmg6cHcluj-1nZ05384vRrt2HM&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQT8orPwc3J5OvMalRtbgJtcS7Gco_kN6Y7zxSs6RQvdQg&oe=6B075E8C",
+          "images": [],
+          "destination": "https://rukn.store/products/beard-grooming-kit-for-men-complete-beard-care-set-with-oil-balm-comb-accessories-bonus-beard-oil",
+          "link": "https://www.facebook.com/ads/library/?id=1158146049896905"
+        },
+        {
+          "library_id": "1703458294750092",
+          "status": "Active",
+          "started": "Nov 19, 2026",
+          "days": 2,
+          "page_name": "Rukn",
+          "text": "🧔 Your beard deserves more than just a comb. Meet the RUKN Premium Beard Grooming Kit — everything you need for a cleaner, softer and better-groomed beard in one premium set. ✨ Beard Wash 🌿 Beard Oil 💈 Beard Balm 🪮 Wooden Comb 🧔 Boar Bristle Brush ✂️ Stainless Steel Scissors Perfect for your daily grooming routine or as a premium gift for any bearded man. 🚚 FREE DELIVERY ALL OVER UAE 💵 CASH ON DELIVERY AVAILABLE Upgrade your beard game with RUKN. https://rukn.store/products/premium-beard-grooming-kit-for-men-complete-beard-care-set-with-beard-wash-beard-oil-beard-balm-wooden-comb-boar-bristle-",
+          "headline": "Premium Beard Grooming Kit for Men",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOno08ZBlutJ1ZOsZLujq69UfK6w2m9IbD70J0WDk-GgbV8IHHVNriW2DSCv8vbH2OOFsyEhKBe-gVIQA7KE24CI-pcQrAthbTXDBu5rg.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=jQhwYP35v-IQ7kNvwE3VZlp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTcwMjU2ODA0NDc5ODY0NiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSsJhvEfCgeZhJ0nEOQLd5XYTBX-uPO2fDBz88-Jioupg&oe=6B076F40",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOno08ZBlutJ1ZOsZLujq69UfK6w2m9IbD70J0WDk-GgbV8IHHVNriW2DSCv8vbH2OOFsyEhKBe-gVIQA7KE24CI-pcQrAthbTXDBu5rg.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=jQhwYP35v-IQ7kNvwE3VZlp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTcwMjU2ODA0NDc5ODY0NiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSsJhvEfCgeZhJ0nEOQLd5XYTBX-uPO2fDBz88-Jioupg&oe=6B076F40",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/915078949_1158067199955679_470967944148538776_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PEG8qmdQFbgQ7kNvwHMaini&_nc_oc=AdpyYU_bkHo7qSRsZQwswheX3LihN7zBnk0WbJJpSCTw1y4sQnHHa1yVUb2vy1OH-gA&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQTaVHvonf1o5BazmZog15ptc42uLJrZTGx1qw6DDXh8bw&oe=6B075517"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/915078949_1158067199955679_470967944148538776_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PEG8qmdQFbgQ7kNvwHMaini&_nc_oc=AdpyYU_bkHo7qSRsZQwswheX3LihN7zBnk0WbJJpSCTw1y4sQnHHa1yVUb2vy1OH-gA&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQTaVHvonf1o5BazmZog15ptc42uLJrZTGx1qw6DDXh8bw&oe=6B075517",
+          "images": [],
+          "destination": "https://rukn.store/products/premium-beard-grooming-kit-for-men-complete-beard-care-set-with-beard-wash-beard-oil-beard-balm-wooden-comb-boar-bristle-brush-scissors-luxury-gift-set-for-men",
+          "link": "https://www.facebook.com/ads/library/?id=1703458294750092"
+        },
+        {
+          "library_id": "2121858245364089",
+          "status": "Active",
+          "started": "Nov 10, 2026",
+          "days": 11,
+          "page_name": "Rukn",
+          "text": "🧔 Upgrade Your Beard Game with RUKN! Looking for the perfect beard grooming kit for men? Give your beard the care it deserves with the RUKN Complete Beard Grooming Kit. ✨ Everything you need for your daily beard care routine: ✅ Beard oil for a softer, healthier-looking beard ✅ Beard balm for styling and control ✅ Comb and grooming accessories ✅ Complete beard care in one convenient kit Whether you're growing your beard or keeping it neat and stylish, RUKN helps you take your grooming routine to the next level.",
+          "headline": "",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMaYHfCFgeKX6n7gJUyI-bzIUwNP1pd2amUTg4ZuwI1lyojHIQmZXMPaVFjs3cXqpLKZ6VFHDmqcS6PzVOBmpbTSEj7ftdpjnOfMiu2cw.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=w2M8QyClPucQ7kNvwHF8GXR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc2ODg5NzIwNzY3MjY0NCwiYXNzZXRfYWdlX2RheXMiOjM5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uhbq8US9Pz6ErObtInYcwjW2WZPhhS_A7OZ28gVQb7aRcNzHrBakk7tspdVJk-Hn6YZpacYqN-SuUbhGoWJ8K61ECUCqvBT4YRy-ZsHCGtrhaeC5ymxY1_qg2kM&oh=00_AQSXPGzHtQVCsR8rheoNVPQx-_-1bFQzpU57OEzx-DS8RA&oe=6B075205",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMaYHfCFgeKX6n7gJUyI-bzIUwNP1pd2amUTg4ZuwI1lyojHIQmZXMPaVFjs3cXqpLKZ6VFHDmqcS6PzVOBmpbTSEj7ftdpjnOfMiu2cw.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=w2M8QyClPucQ7kNvwHF8GXR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc2ODg5NzIwNzY3MjY0NCwiYXNzZXRfYWdlX2RheXMiOjM5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uhbq8US9Pz6ErObtInYcwjW2WZPhhS_A7OZ28gVQb7aRcNzHrBakk7tspdVJk-Hn6YZpacYqN-SuUbhGoWJ8K61ECUCqvBT4YRy-ZsHCGtrhaeC5ymxY1_qg2kM&oh=00_AQSXPGzHtQVCsR8rheoNVPQx-_-1bFQzpU57OEzx-DS8RA&oe=6B075205",
+              "poster": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.35426-6/902113740_1123058990468930_2294818420748491387_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=66UlyqQzsA8Q7kNvwGdXMgA&_nc_oc=AdruggaiXIK3N1FveqEqq1C_Ni2NAZZtFBDuwcK-t6kEhFUKm4anAVcYED66yPGLFLw&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQRlcYQxOXpJjuhrEx18uxub5Key3YL_OjP1NsHddd2hMg&oe=6B0761BD"
+            }
+          ],
+          "poster": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.35426-6/902113740_1123058990468930_2294818420748491387_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=66UlyqQzsA8Q7kNvwGdXMgA&_nc_oc=AdruggaiXIK3N1FveqEqq1C_Ni2NAZZtFBDuwcK-t6kEhFUKm4anAVcYED66yPGLFLw&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQRlcYQxOXpJjuhrEx18uxub5Key3YL_OjP1NsHddd2hMg&oe=6B0761BD",
+          "images": [],
+          "destination": "https://rukn.store/products/beard-grooming-kit-for-men-complete-beard-care-set-with-oil-balm-comb-accessories-bonus-beard-oil?fbclid=fbclid",
+          "link": "https://www.facebook.com/ads/library/?id=2121858245364089"
+        },
+        {
+          "library_id": "1388186173390952",
+          "status": "Active",
+          "started": "Nov 14, 2026",
+          "days": 7,
+          "page_name": "Rukn",
+          "text": "🧔 Upgrade Your Beard Game with RUKN! Looking for the perfect beard grooming kit for men? Give your beard the care it deserves with the RUKN Complete Beard Grooming Kit. ✨ Everything you need for your daily beard care routine: ✅ Beard oil for a softer, healthier-looking beard ✅ Beard balm for styling and control ✅ Comb and grooming accessories ✅ Complete beard care in one convenient kit Whether you're growing your beard or keeping it neat and stylish, RUKN helps you take your grooming routine to the next level.",
+          "headline": "",
+          "ads_in_group": 1,
+          "video": "",
+          "videos": 0,
+          "clips": [],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/902249414_2221138491947834_4726248209046129616_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UefCXP1QuOMQ7kNvwEH7i4E&_nc_oc=Ado3ozwIx_iL6rpeP7QOE12HrHvsKodd-ZdOxvNTD5VYyaj9VCihNxm8SOQx3w39YOU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQT_WyhkgYUIKop85K1pGIwy1IpQG_9klsnxTUcS5Y_Ljg&oe=6B0749C3",
+          "images": [
+            "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/902249414_2221138491947834_4726248209046129616_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=UefCXP1QuOMQ7kNvwEH7i4E&_nc_oc=Ado3ozwIx_iL6rpeP7QOE12HrHvsKodd-ZdOxvNTD5VYyaj9VCihNxm8SOQx3w39YOU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=OUr8UwBX7_KFHLc9mDAmBQ&_nc_ss=7f289&oh=00_AQT_WyhkgYUIKop85K1pGIwy1IpQG_9klsnxTUcS5Y_Ljg&oe=6B0749C3"
+          ],
+          "destination": "https://rukn.store/products/beard-growth-oil?utm_content=Facebook_UA&utm_source=facebook&variant=67853293355329",
+          "link": "https://www.facebook.com/ads/library/?id=1388186173390952"
+        }
+      ],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=rukn.store&search_type=keyword_exact_phrase",
+      "detail": "~7 results",
+      "captured": "2026-11-21T12:38:29",
+      "checked": "2026-11-21T12:38:29"
+    },
+    {
+      "url": "https://herspace.beauty",
+      "query": "herspace.beauty",
+      "state": "done",
+      "found": true,
+      "count": 10,
+      "total": "~10 results",
+      "ads": [
+        {
+          "library_id": "2141869616406567",
+          "status": "Active",
+          "started": "Oct 16, 2026",
+          "days": 36,
+          "page_name": "Herspace",
+          "text": "One Foundation. Every Shade. 🤍 Skin-matching foundation that adapts to your tone for a smooth, natural-looking finish. ✨ Lightweight & buildable coverage 💧 Suitable for all skin types 🚚 Fast delivery across UAE 💵 Pay at your doorstep 0:00 / 0:57",
+          "headline": "",
+          "ads_in_group": 3,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPAoKoHccf1eYEA7IiHjRHoufGVVouY7VNYSGcrw1hFHe1RM5JYowen_a8soL_XXn8JGKDECqETaZzyahgqy3u4nPZ-fTaq0TYD4Tghfw.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=aS2f2G5DV-AQ7kNvwEYiGt6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA3NDM3MTI2MTg3NDk4NCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsIndhdGNoX3RpbWVfcyI6ODU1MzQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQi1wRjsNc_-3L5_6WV7jZ7h-34gGPSvg4YQ8POmObZJA&oe=6B076372",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPAoKoHccf1eYEA7IiHjRHoufGVVouY7VNYSGcrw1hFHe1RM5JYowen_a8soL_XXn8JGKDECqETaZzyahgqy3u4nPZ-fTaq0TYD4Tghfw.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=aS2f2G5DV-AQ7kNvwEYiGt6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA3NDM3MTI2MTg3NDk4NCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsIndhdGNoX3RpbWVfcyI6ODU1MzQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQi1wRjsNc_-3L5_6WV7jZ7h-34gGPSvg4YQ8POmObZJA&oe=6B076372",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/854415937_1735583044174820_4779509853990217040_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Eu5ecb6PFt8Q7kNvwE7cmAq&_nc_oc=AdrFUx9b3jxnrrV01wKMoM6bMwx6RX9QJy2a4kXXYJTcsKZoz6ApVOs0fMd0knQIQgE&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQQRJsQ5-w7fbTs3YRhCAntXAyObHWj32tW0saNkIw4yHg&oe=6B0767AF"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/854415937_1735583044174820_4779509853990217040_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Eu5ecb6PFt8Q7kNvwE7cmAq&_nc_oc=AdrFUx9b3jxnrrV01wKMoM6bMwx6RX9QJy2a4kXXYJTcsKZoz6ApVOs0fMd0knQIQgE&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQQRJsQ5-w7fbTs3YRhCAntXAyObHWj32tW0saNkIw4yHg&oe=6B0767AF",
+          "images": [],
+          "destination": "https://herspace.beauty/products/✨-4-in-1-biomimic-foundation?variant=48490447634681",
+          "link": "https://www.facebook.com/ads/library/?id=2141869616406567"
+        },
+        {
+          "library_id": "1396747728702835",
+          "status": "Active",
+          "started": "Sep 29, 2026",
+          "days": 53,
+          "page_name": "Herspace",
+          "text": "One Foundation. Every Shade. 🤍 Skin-matching foundation that adapts to your tone for a smooth, natural-looking finish. ✨ Lightweight & buildable coverage 💧 Suitable for all skin types 🚚 Fast delivery across UAE 💵 Pay at your doorstep 0:00 / 1:24",
+          "headline": "",
+          "ads_in_group": 2,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOyHXhem1bTEYvMbjbdPuyZ3mzo19zk_OoPoryPXA6BXdDQdB1KACs4HndytC6OsvtZo0Qw7mwAT9JNWw6KAjs9DSXRP9nZLGxFSQrCRQ.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=BDGcy6w66woQ7kNvwHH5VRO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjAxMjc3NDg5NjA4OTE3OSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6ODQsIndhdGNoX3RpbWVfcyI6Njc1NDc1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRREJD1qE0c2QMYvltalnwDddETGZSYfKZbZy1ulwLXiA&oe=6B076EBF",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOyHXhem1bTEYvMbjbdPuyZ3mzo19zk_OoPoryPXA6BXdDQdB1KACs4HndytC6OsvtZo0Qw7mwAT9JNWw6KAjs9DSXRP9nZLGxFSQrCRQ.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=BDGcy6w66woQ7kNvwHH5VRO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjAxMjc3NDg5NjA4OTE3OSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6ODQsIndhdGNoX3RpbWVfcyI6Njc1NDc1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRREJD1qE0c2QMYvltalnwDddETGZSYfKZbZy1ulwLXiA&oe=6B076EBF",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/828896491_1619594723191724_7085099379764877478_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fNaDhVQMZjQQ7kNvwGLqG_k&_nc_oc=AdoYM1uwUpVEp9pgfvXKDTbigW9IUmxoNElkxwSGbjySe63p_bf368YcnFhUs38-Y8o&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQQuUZRtvBllR9vkV0HfSxkDnB7k6Aoy17781fFeUdJx1g&oe=6B0769D0"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/828896491_1619594723191724_7085099379764877478_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fNaDhVQMZjQQ7kNvwGLqG_k&_nc_oc=AdoYM1uwUpVEp9pgfvXKDTbigW9IUmxoNElkxwSGbjySe63p_bf368YcnFhUs38-Y8o&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQQuUZRtvBllR9vkV0HfSxkDnB7k6Aoy17781fFeUdJx1g&oe=6B0769D0",
+          "images": [],
+          "destination": "https://herspace.beauty/products/✨-4-in-1-biomimic-foundation?variant=48490447634681",
+          "link": "https://www.facebook.com/ads/library/?id=1396747728702835"
+        },
+        {
+          "library_id": "1422716109991230",
+          "status": "Active",
+          "started": "Oct 16, 2026",
+          "days": 36,
+          "page_name": "Herspace",
+          "text": "One Foundation. Every Shade. 🤍 Skin-matching foundation that adapts to your tone for a smooth, natural-looking finish. ✨ Lightweight & buildable coverage 💧 Suitable for all skin types 🚚 Fast delivery across UAE 💵 Pay at your doorstep 0:00 / 0:45",
+          "headline": "",
+          "ads_in_group": 2,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOaRawN4fq85uGY1sjePDBQ_wJ90ya6xNawRDh7yl0GFZ0DOZ6AnNr4nNb4q0dmeYoei_Dd1gr4PsOSVP0e40Xs1mlNrMBcZhOHZAIWvg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=W832MomumVoQ7kNvwG26otw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTY0NTUzMDMxNzI5NTA1OSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDQsIndhdGNoX3RpbWVfcyI6MjEzNzkyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSphg8C43ScHlbt_6X9XSXi8a6JfR_QLbNhx407r7Vfrg&oe=6B074B58",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOaRawN4fq85uGY1sjePDBQ_wJ90ya6xNawRDh7yl0GFZ0DOZ6AnNr4nNb4q0dmeYoei_Dd1gr4PsOSVP0e40Xs1mlNrMBcZhOHZAIWvg.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=W832MomumVoQ7kNvwG26otw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTY0NTUzMDMxNzI5NTA1OSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDQsIndhdGNoX3RpbWVfcyI6MjEzNzkyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSphg8C43ScHlbt_6X9XSXi8a6JfR_QLbNhx407r7Vfrg&oe=6B074B58",
+              "poster": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.35426-6/855645259_1446492787412368_2896494304055040347_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EWZ62dSAVgAQ7kNvwG-aegM&_nc_oc=AdrADVr5DExSyESPNVw4zT6VSKO7cvnfr6duHK8lqQGeoa8_RarCcIHTEb0W0GYF9I4&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQSsmiOp3ce2czPCfVRxcyY3nvvKSvAIZ8Zkdk_2imFTOg&oe=6B075B85"
+            }
+          ],
+          "poster": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.35426-6/855645259_1446492787412368_2896494304055040347_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EWZ62dSAVgAQ7kNvwG-aegM&_nc_oc=AdrADVr5DExSyESPNVw4zT6VSKO7cvnfr6duHK8lqQGeoa8_RarCcIHTEb0W0GYF9I4&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQSsmiOp3ce2czPCfVRxcyY3nvvKSvAIZ8Zkdk_2imFTOg&oe=6B075B85",
+          "images": [],
+          "destination": "https://herspace.beauty/products/✨-4-in-1-biomimic-foundation?variant=48490447634681",
+          "link": "https://www.facebook.com/ads/library/?id=1422716109991230"
+        },
+        {
+          "library_id": "2918482771867536",
+          "status": "Active",
+          "started": "Oct 16, 2026",
+          "days": 36,
+          "page_name": "Herspace",
+          "text": "One Foundation. Every Shade. 🤍 Skin-matching foundation that adapts to your tone for a smooth, natural-looking finish. ✨ Lightweight & buildable coverage 💧 Suitable for all skin types 🚚 Fast delivery across UAE 💵 Pay at your doorstep 0:00 / 2:36",
+          "headline": "",
+          "ads_in_group": 2,
+          "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMNoAa0DSbGE9a8QMmHDKek84omHkGhyWD_SgpBPSzGdafzdZp38r-M-0kmQR7zObhVC0RQ9uXuC0IorKw9c5E7AyqIXfKgl76QaLCjrQ.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=2U8QDCJBPRkQ7kNvwGJffvV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE2MTkxMTA5MTA2MTYwNCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTU1LCJ3YXRjaF90aW1lX3MiOjQ1NDczLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRhllYQP6ytWNR6EHiYO6Pr5pHUGzzFisWykVwtoWqdUA&oe=6B075515",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMNoAa0DSbGE9a8QMmHDKek84omHkGhyWD_SgpBPSzGdafzdZp38r-M-0kmQR7zObhVC0RQ9uXuC0IorKw9c5E7AyqIXfKgl76QaLCjrQ.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=2U8QDCJBPRkQ7kNvwGJffvV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE2MTkxMTA5MTA2MTYwNCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTU1LCJ3YXRjaF90aW1lX3MiOjQ1NDczLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRhllYQP6ytWNR6EHiYO6Pr5pHUGzzFisWykVwtoWqdUA&oe=6B075515",
+              "poster": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.35426-6/853713855_2886067978436317_1504764254700547504_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vUEf0WZefK4Q7kNvwE_Y0xu&_nc_oc=Ado3XKX58ROMsX8b_-7BN_U07VJo-nVfFYqZoAbebrtNqBa-oIqI2z6VLRyB659uUEk&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQS4Oe3h-ju7zNe2BNjUS0nfettO59j5xYqEjSaI0hD9Ug&oe=6B0773A5"
+            }
+          ],
+          "poster": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.35426-6/853713855_2886067978436317_1504764254700547504_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vUEf0WZefK4Q7kNvwE_Y0xu&_nc_oc=Ado3XKX58ROMsX8b_-7BN_U07VJo-nVfFYqZoAbebrtNqBa-oIqI2z6VLRyB659uUEk&_nc_zt=14&_nc_ht=scontent-lhr6-2.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQS4Oe3h-ju7zNe2BNjUS0nfettO59j5xYqEjSaI0hD9Ug&oe=6B0773A5",
+          "images": [],
+          "destination": "https://herspace.beauty/products/✨-4-in-1-biomimic-foundation?variant=48490447634681",
+          "link": "https://www.facebook.com/ads/library/?id=2918482771867536"
+        },
+        {
+          "library_id": "1997851840878141",
+          "status": "Active",
+          "started": "Oct 16, 2026",
+          "days": 36,
+          "page_name": "Herspace",
+          "text": "One Foundation. Every Shade. 🤍 Skin-matching foundation that adapts to your tone for a smooth, natural-looking finish. ✨ Lightweight & buildable coverage 💧 Suitable for all skin types 🚚 Fast delivery across UAE 💵 Pay at your doorstep 0:00 / 0:40 HERSPACE.BEAUTY",
+          "headline": "Skin-Matching Foundation | Cash on Delivery UAE",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMKUpZh58u1Orwg2lIqEfX7IrmzvHFdTA4jKynkCVAG9M5VsZ7AglrjDvh9WA3y_Nrst1y3SykKDGzrmbhIT64lPwsXiO5Gc1O_8p7uhA.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=ZxEAXtlaUgIQ7kNvwHeFVki&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ2Nzc4NDE2MTg4MTk5OSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDAsIndhdGNoX3RpbWVfcyI6MTAzMzUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQZFbFMaj3-BdSQMqIrgozrVHOhupfbiey1al7VowDcMQ&oe=6B0765D9",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMKUpZh58u1Orwg2lIqEfX7IrmzvHFdTA4jKynkCVAG9M5VsZ7AglrjDvh9WA3y_Nrst1y3SykKDGzrmbhIT64lPwsXiO5Gc1O_8p7uhA.mp4?_nc_cat=101&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=ZxEAXtlaUgIQ7kNvwHeFVki&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ2Nzc4NDE2MTg4MTk5OSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NDAsIndhdGNoX3RpbWVfcyI6MTAzMzUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQZFbFMaj3-BdSQMqIrgozrVHOhupfbiey1al7VowDcMQ&oe=6B0765D9",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/854108670_29042154912090609_4450745276360318211_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=c2INyO6tWhgQ7kNvwE6iQl4&_nc_oc=Adpkqwh0WHGmX8qNiPYfDliaCL2Cm9T2mkk1GeBnw7l2dcM9nIrVQZQJ1FxcgzEfK-8&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQSA04zDPYMMEVvW4U9jh0jo8RjIZHVCtl3x6Ph__hbhvQ&oe=6B074DE0"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/854108670_29042154912090609_4450745276360318211_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=c2INyO6tWhgQ7kNvwE6iQl4&_nc_oc=Adpkqwh0WHGmX8qNiPYfDliaCL2Cm9T2mkk1GeBnw7l2dcM9nIrVQZQJ1FxcgzEfK-8&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=q83MyxVdemJDHXx0opBuZg&_nc_ss=7f289&oh=00_AQSA04zDPYMMEVvW4U9jh0jo8RjIZHVCtl3x6Ph__hbhvQ&oe=6B074DE0",
+          "images": [],
+          "destination": "https://herspace.beauty/products/✨-4-in-1-biomimic-foundation?variant=48490447634681",
+          "link": "https://www.facebook.com/ads/library/?id=1997851840878141"
+        }
+      ],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=herspace.beauty&search_type=keyword_exact_phrase",
+      "detail": "~10 results",
+      "captured": "2026-11-21T12:38:51",
+      "checked": "2026-11-21T12:38:51"
+    },
+    {
+      "url": "https://calinora.shop",
+      "query": "calinora.shop",
+      "state": "done",
+      "found": true,
+      "count": 5,
+      "total": "~5 results",
+      "ads": [
+        {
+          "library_id": "1816990739542143",
+          "status": "Active",
+          "started": "Oct 29, 2026",
+          "days": 23,
+          "page_name": "Calinora",
+          "text": "Show Attract Your Car a Bold, Head-Turning Look! Upgrade your ride with the Devil Eyes LED Car Window Light. Stand out with its striking design and eye-catching glow. Why you upgrading the Car? ✅ Bold Devil Eyes LED Design ✅ Solar-Powered Charging ✅ Convenient Type-C Charging Ready to Transform Your Ride? Limited-Time Offer Shop Now! 0:00 / 0:15 CALINORA.SHOP",
+          "headline": "Bold LED styling to make your car stand out.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPWz95L1qEcHag5kixDtUC3w0ov9LYJN3SQ9Z_WBwW9FrskFq44ERawWIk1Z23DcamHqgTfBrjPjku-Z_78R7zwuyBVD8l62k8ZwJSYcg.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=Vjs-H_LSzXcQ7kNvwFi10SN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0MjQ4MjU3NzE0Mjc5MywiYXNzZXRfYWdlX2RheXMiOjMxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQShf3T9S8NCXTS-j_-Hyc2FQf8SCNxGcbMFdkAK9hUubA&oe=6B07638F",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPWz95L1qEcHag5kixDtUC3w0ov9LYJN3SQ9Z_WBwW9FrskFq44ERawWIk1Z23DcamHqgTfBrjPjku-Z_78R7zwuyBVD8l62k8ZwJSYcg.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=Vjs-H_LSzXcQ7kNvwFi10SN&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0MjQ4MjU3NzE0Mjc5MywiYXNzZXRfYWdlX2RheXMiOjMxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQShf3T9S8NCXTS-j_-Hyc2FQf8SCNxGcbMFdkAK9hUubA&oe=6B07638F",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/876794170_1106091428989354_2735523954225423316_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rcdLRcrt0d0Q7kNvwHm3fEY&_nc_oc=AdrZuzMGqDdxZFpYrUxh_bwFWCUgEUepKfgKKm5iydz4j72jUxi3PMTlsdgmqwMfO6Q&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQRkSD74tkM7XhaUwfePUzwtwHLzpDcezCQ5YUAk3uOWVg&oe=6B0757B7"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/876794170_1106091428989354_2735523954225423316_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rcdLRcrt0d0Q7kNvwHm3fEY&_nc_oc=AdrZuzMGqDdxZFpYrUxh_bwFWCUgEUepKfgKKm5iydz4j72jUxi3PMTlsdgmqwMfO6Q&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQRkSD74tkM7XhaUwfePUzwtwHLzpDcezCQ5YUAk3uOWVg&oe=6B0757B7",
+          "images": [],
+          "destination": "https://calinora.shop/products/devil-eyes-led-car-window-light?_pos=1&_psq=ey&_psid=7f6174ce6&_ss=e&fbclid=IwY2xjawVP40lleHRuA2FlbQIxMABwZG9mBWJyaWQRMUszZkl2Z3Q4OHJZTmlMMWJzcnRjBmFwcF9pZA8xMTkyMTE3MjgxNDQ1MDQAAR9e80-irdJejL2YO7PEzwC0Nc0Fwyzya1BHx2crB8tRazTW0Zmvo5vIuA8Cmg_aem_pPzIg-IOpHXtbPhmr6h_PQ",
+          "link": "https://www.facebook.com/ads/library/?id=1816990739542143"
+        },
+        {
+          "library_id": "1696342908875870",
+          "status": "Active",
+          "started": "Nov 13, 2026",
+          "days": 8,
+          "page_name": "Calinora",
+          "text": "What if stubborn mess didn’t mean more scrubbing? Everyday dirt can turn a quick clean into a tiring chore. Let Calinora’s 9-in-1 Electric Cleaning Brush help with the hard work. ✓ Powered rotation helps tackle stubborn dirt ✓ Interchangeable heads for different cleaning tasks ✓ Cordless convenience around your home ✓ Rechargeable with Type-C ✓ Simple one-button operation Now AED 99, previously AED 179. Save AED 80! Give your next cleanup an upgrade. Tap Shop Now at Calinora. 0:00 / 0:40 CALINORA.SHOP",
+          "headline": "One brush for everyday cleaning tasks. Now AED 99. Save AED 80.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQN_RWuceQOB7WwP1McDeQ3B6JznP1bouLaxUcHSaiKnKITc9CwzQoc6-fmI9ahXWHfQIB5FOP_GMsm2pV5sbJi8hR4KnAIZA4ubZVOKfQ.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=i9E4edXSktsQ7kNvwF0Y3-j&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ3OTk3NzA0MDY4NzIzOCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQmueQsVNQO-wNJaK31XnRLZZvKZNcge3yOyKpn6VwlCg&oe=6B074E62",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQN_RWuceQOB7WwP1McDeQ3B6JznP1bouLaxUcHSaiKnKITc9CwzQoc6-fmI9ahXWHfQIB5FOP_GMsm2pV5sbJi8hR4KnAIZA4ubZVOKfQ.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=i9E4edXSktsQ7kNvwF0Y3-j&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ3OTk3NzA0MDY4NzIzOCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQmueQsVNQO-wNJaK31XnRLZZvKZNcge3yOyKpn6VwlCg&oe=6B074E62",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/905084371_1108710071789071_4418997877928994806_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bFh3rQwoKc4Q7kNvwEWr0Si&_nc_oc=Adoib0NGIpM1_QEWVqeI_BX-li9D6rMAq2osOJlJmISWiGE_lrEesq7t76Dk3e2bZGc&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQSJ9YAp6W8YfYJyszWKXbYFshbyXYUjl3YMSSCh7u7Zkg&oe=6B076821"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/905084371_1108710071789071_4418997877928994806_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bFh3rQwoKc4Q7kNvwEWr0Si&_nc_oc=Adoib0NGIpM1_QEWVqeI_BX-li9D6rMAq2osOJlJmISWiGE_lrEesq7t76Dk3e2bZGc&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQSJ9YAp6W8YfYJyszWKXbYFshbyXYUjl3YMSSCh7u7Zkg&oe=6B076821",
+          "images": [],
+          "destination": "https://calinora.shop/products/9-in-1-electric-cleaning-brush",
+          "link": "https://www.facebook.com/ads/library/?id=1696342908875870"
+        },
+        {
+          "library_id": "1167738195689474",
+          "status": "Active",
+          "started": "Nov 13, 2026",
+          "days": 8,
+          "page_name": "Calinora",
+          "text": "Love cooking but dread the cleanup? This little brush could change your after-dinner routine. ✨ Stubborn food residue can turn washing up into a tiring chore. Let Calinora’s 5-in-1 Electric Cleaning Brush help with the scrubbing. ✓ Powered rotation helps loosen stubborn mess ✓ Interchangeable heads for different cleaning tasks ✓ Cordless design for easy handling ✓ Recharge conveniently with Type-C ✓ Start cleaning with one button Now AED 79, previously AED 164. Save AED 85, over 50% OFF! Make your next cleanup easier. Tap Shop Now at Calinora. 0:00 / 0:23 CALINORA.SHOP",
+          "headline": "Give your hands a break. Powered cleaning for AED 79. Save AED 85.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQNw9jB0hczif2dmzLKJHpWftDT82DtYg07germaB1rl2rtVd3gotqN7VRlRg8gFhvIPwQ1kpnma9XxPaXG4FD4q9s91HgpedkFogUZ9rw.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=GkLBCI3JW8EQ7kNvwHvEwfc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTEwNzA5ODc0ODk4MDg4NywiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoyMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRy5oWC4GoxIvf4URLaeo6NKPrr2JwH1cR_Mier4Dn1Lw&oe=6B076530",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQNw9jB0hczif2dmzLKJHpWftDT82DtYg07germaB1rl2rtVd3gotqN7VRlRg8gFhvIPwQ1kpnma9XxPaXG4FD4q9s91HgpedkFogUZ9rw.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=GkLBCI3JW8EQ7kNvwHvEwfc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTEwNzA5ODc0ODk4MDg4NywiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoyMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRy5oWC4GoxIvf4URLaeo6NKPrr2JwH1cR_Mier4Dn1Lw&oe=6B076530",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/904030627_1802023807582682_1427416687801804935_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jCOnWpA4KHIQ7kNvwESMtk4&_nc_oc=AdrcIlFqokEAotLR-R07S_PBdhJdcgEvxETTgYu-uJ36QIwj6PTrlGlT06heWSURCiA&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQQB9aLNydoJRdNUWzH2VKnxdK7FWCloYfdhLDyeILpcOg&oe=6B07757E"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/904030627_1802023807582682_1427416687801804935_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jCOnWpA4KHIQ7kNvwESMtk4&_nc_oc=AdrcIlFqokEAotLR-R07S_PBdhJdcgEvxETTgYu-uJ36QIwj6PTrlGlT06heWSURCiA&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQQB9aLNydoJRdNUWzH2VKnxdK7FWCloYfdhLDyeILpcOg&oe=6B07757E",
+          "images": [],
+          "destination": "https://calinora.shop/products/5-in-1-electric-cleaning-brush",
+          "link": "https://www.facebook.com/ads/library/?id=1167738195689474"
+        },
+        {
+          "library_id": "2033349110711869",
+          "status": "Active",
+          "started": "Nov 13, 2026",
+          "days": 8,
+          "page_name": "Calinora",
+          "text": "What if tackling stubborn mess started with just one button? ✨ Tired of scrubbing kitchen mess by hand? Meet Calinora’s 5-in-1 Electric Cleaning Brush, designed to make everyday cleaning easier. ✓ Powered rotating brush helps tackle stubborn dirt ✓ Interchangeable heads for different cleaning tasks ✓ Cordless design for easy handling ✓ Convenient Type-C charging ✓ Simple one-button operation Now AED 79, previously AED 164. Save AED 85, over 50% OFF! Give your cleaning routine an upgrade. Tap Shop Now at Calinora. 0:00 / 0:16 CALINORA.SHOP",
+          "headline": "Still Scrubbing by Hand? Upgrade Today.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOORIgPo9Yw5n8AQoWXa2gA0xAWdTivWNOUggMcrORgqQcSLhIPtXmmCU2on6OezWtoaa-G3si0v9KUlgr0RwEa51iWHZLsYs9abSmaaw.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=N6PdvPG8LY8Q7kNvwHrn6g8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTkzMjY5NTA3NDM2ODQ0OSwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UhEBiJv2gXfRiAThD4zFOybLAIN4w0PloxnKWrCFpVcT66ADSs3HyQPUtTlfoRlhEE9J2nJRV9TjgngbR2yuFAejkq72Znh6GrVhhQcGbX_I0yulRifB3YxbuoA&oh=00_AQQ5yZAe6nsASewn9dm7ekP7AWTzXP0G_WkpfeQNztfV4w&oe=6B075E1C",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQOORIgPo9Yw5n8AQoWXa2gA0xAWdTivWNOUggMcrORgqQcSLhIPtXmmCU2on6OezWtoaa-G3si0v9KUlgr0RwEa51iWHZLsYs9abSmaaw.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=N6PdvPG8LY8Q7kNvwHrn6g8&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTkzMjY5NTA3NDM2ODQ0OSwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UhEBiJv2gXfRiAThD4zFOybLAIN4w0PloxnKWrCFpVcT66ADSs3HyQPUtTlfoRlhEE9J2nJRV9TjgngbR2yuFAejkq72Znh6GrVhhQcGbX_I0yulRifB3YxbuoA&oh=00_AQQ5yZAe6nsASewn9dm7ekP7AWTzXP0G_WkpfeQNztfV4w&oe=6B075E1C",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/905826670_2470697870126825_33916299623070644_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=l4mVRxCHs5wQ7kNvwGI6Vda&_nc_oc=AdrL91pL-z-0bS1BUeBAyLmnn0GO9RcRM3EQzx27H2niCgM8HnLQ8VfhT_H7DOUNJJ4&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQQi65RnhxzO9KM6JSyvSduY6qxcwVmEjjSX6YckNxZQiQ&oe=6B077AAC"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/905826670_2470697870126825_33916299623070644_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=l4mVRxCHs5wQ7kNvwGI6Vda&_nc_oc=AdrL91pL-z-0bS1BUeBAyLmnn0GO9RcRM3EQzx27H2niCgM8HnLQ8VfhT_H7DOUNJJ4&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQQi65RnhxzO9KM6JSyvSduY6qxcwVmEjjSX6YckNxZQiQ&oe=6B077AAC",
+          "images": [],
+          "destination": "https://calinora.shop/products/5-in-1-electric-cleaning-brush",
+          "link": "https://www.facebook.com/ads/library/?id=2033349110711869"
+        },
+        {
+          "library_id": "1136719275382795",
+          "status": "Active",
+          "started": "Nov 13, 2026",
+          "days": 8,
+          "page_name": "Calinora",
+          "text": "One brush, different attachments. What could your cleaning routine be missing? ✨ Stubborn mess and tiring hand scrubbing can make everyday chores feel endless. Meet Calinora’s 9-in-1 Electric Cleaning Brush, designed to make cleaning easier. ✓ Powered scrubbing helps tackle stubborn dirt ✓ Interchangeable attachments for different cleaning tasks ✓ Cordless design for easy movement ✓ Convenient Type-C charging ✓ Simple one-button start with display Now AED 99, previously AED 179. Save AED 80! Make your next clean easier. Tap Shop Now at Calinora. 0:00 / 0:26 CALINORA.SHOP",
+          "headline": "Discover your next cleaning helper. Now AED 99. Save AED 80.",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQN25B2LXBdF4BMl8BV8kp3imooThm_zOB2SwgbBS7AzIFyxkhkmWGQNum8cyl7HNqA7bKOM-uG1d-nZxYO0QOQc9DhP3NHq5HcgyNbZVw.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=CtQtSMBATXQQ7kNvwHwXNhY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjI4NTgzMjQ1ODY0Njg3OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoyNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRNUjvKEZNe7h4O0EiVMC0osVAqbLUzFomBIYseRtUK5w&oe=6B07657A",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQN25B2LXBdF4BMl8BV8kp3imooThm_zOB2SwgbBS7AzIFyxkhkmWGQNum8cyl7HNqA7bKOM-uG1d-nZxYO0QOQc9DhP3NHq5HcgyNbZVw.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=CtQtSMBATXQQ7kNvwHwXNhY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjI4NTgzMjQ1ODY0Njg3OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoyNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRNUjvKEZNe7h4O0EiVMC0osVAqbLUzFomBIYseRtUK5w&oe=6B07657A",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/903576461_1442008657446093_4618217076081798752_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=O8fV0WcM4k0Q7kNvwGee8tN&_nc_oc=Ado7ncW5HGeh0pfFJ4JdG9dGo07r2-NvYrZjWH3-y2TK6R1yHZIdndTXgD5XYWWbC28&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQRep0KDzoJVJtR-VCcegP3SNRDCxOWKoiz78K-eO4foQg&oe=6B076EEC"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/903576461_1442008657446093_4618217076081798752_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=O8fV0WcM4k0Q7kNvwGee8tN&_nc_oc=Ado7ncW5HGeh0pfFJ4JdG9dGo07r2-NvYrZjWH3-y2TK6R1yHZIdndTXgD5XYWWbC28&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=tHp1sSp9IzRn5b40RBcckQ&_nc_ss=7f289&oh=00_AQRep0KDzoJVJtR-VCcegP3SNRDCxOWKoiz78K-eO4foQg&oe=6B076EEC",
+          "images": [],
+          "destination": "https://calinora.shop/products/9-in-1-electric-cleaning-brush",
+          "link": "https://www.facebook.com/ads/library/?id=1136719275382795"
+        }
+      ],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=calinora.shop&search_type=keyword_exact_phrase",
+      "detail": "~5 results",
+      "captured": "2026-11-21T12:39:12",
+      "checked": "2026-11-21T12:39:12"
+    },
+    {
+      "url": "https://orlivoo.store",
+      "query": "orlivoo.store",
+      "state": "done",
+      "found": false,
+      "count": 0,
+      "total": "no ads",
+      "ads": [],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=orlivoo.store&search_type=keyword_exact_phrase",
+      "detail": "No ads found",
+      "captured": "2026-11-21T12:39:22",
+      "checked": "2026-11-21T12:39:22"
+    },
+    {
+      "url": "https://ritualx.shop",
+      "query": "ritualx.shop",
+      "state": "done",
+      "found": true,
+      "count": 10,
+      "total": "~10 results",
+      "ads": [
+        {
+          "library_id": "1734573897822295",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Ritualx",
+          "text": "🛞 Aired down for the dunes? Air back up on the sand with a 150 PSI cordless inflator, AED 249. No more crawling to a pump. 0:00 / 0:23 HTTPS://RITUALX.SHOP",
+          "headline": "Rechargeable, cordless",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMuwBZtn4x0-RH9PMn209rtCe6n_M4RNP4nbUIlbWMskyeajTNog5w5CgixQI6rAsP8RT0sBX17e4vWGy9LDBeyxwn40xGcyzM5dQq_HQ.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=BQABqRFKmY8Q7kNvwFQfAQy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM5MDAzMjEwNjA5MjMyNSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSxcfbSYsgQfPW4k8lSzA1r834MjSe-u4kQKlxDCmB4uA&oe=6B076C84",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMuwBZtn4x0-RH9PMn209rtCe6n_M4RNP4nbUIlbWMskyeajTNog5w5CgixQI6rAsP8RT0sBX17e4vWGy9LDBeyxwn40xGcyzM5dQq_HQ.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=BQABqRFKmY8Q7kNvwFQfAQy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM5MDAzMjEwNjA5MjMyNSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSxcfbSYsgQfPW4k8lSzA1r834MjSe-u4kQKlxDCmB4uA&oe=6B076C84",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/819472459_1678218523718879_6339659183420611500_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e9EeXj-9BmsQ7kNvwGlFQRb&_nc_oc=AdpivBWuwFMJj5u6aNl1Q75ZVPw9Y4oG2yOqrMXlmJXc-pW1chOOZwm64lC5S13JVms&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRaKz4Dq00tPY5WhUp-_lFOIz5qPVE-fDBfBJHqMMmfLA&oe=6B0767DF"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/819472459_1678218523718879_6339659183420611500_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e9EeXj-9BmsQ7kNvwGlFQRb&_nc_oc=AdpivBWuwFMJj5u6aNl1Q75ZVPw9Y4oG2yOqrMXlmJXc-pW1chOOZwm64lC5S13JVms&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRaKz4Dq00tPY5WhUp-_lFOIz5qPVE-fDBfBJHqMMmfLA&oe=6B0767DF",
+          "images": [],
+          "destination": "https://ritualx.shop/products/150psi-tire-inflator-jump-starter?variant=49637367611544",
+          "link": "https://www.facebook.com/ads/library/?id=1734573897822295"
+        },
+        {
+          "library_id": "2136397917040391",
+          "status": "Active",
+          "started": "Oct 22, 2026",
+          "days": 30,
+          "page_name": "Ritualx",
+          "text": "💰 Ready to build a better saving habit? Meet the 10,000 Savings Challenge Box! Make saving money more fun by depositing money and tracking your progress one step at a time. ✨ A simple way to stay focused on your savings goals. 💵 Only AED 99 🚚 Cash on Delivery available Start your savings challenge today! 0:00 / 0:28",
+          "headline": "",
+          "ads_in_group": 3,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQM-pzZ19RvK-lS8YuB6-xkK4tN4QKpnZ0KnXaJyO1NJrFGh5uvK9-x_DjL61dftzZpXbmyUtV4-DDrPETStrhaBM34Yrs2pXUOXkTOJKA.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=77yXA91djswQ7kNvwFBcQ5L&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0ODc1NDY2MjM4ODQ2MCwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uqp9KwPOzxfXoOPLQKgO_5PvXdprOFgpSs1jLiHs3m3YyeoT4Ky_DD1mH1sKUcyB7juZp3BwyyHxH77R6OVwoRDGRuFJIPS-PkA8gMirjp06QcX4c7eaJi7Fb8Y&oh=00_AQS0BB0OV5gXoNYA5mbGbbxQU4EXcdk4nzTUWY7F-njdPg&oe=6B077237",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQM-pzZ19RvK-lS8YuB6-xkK4tN4QKpnZ0KnXaJyO1NJrFGh5uvK9-x_DjL61dftzZpXbmyUtV4-DDrPETStrhaBM34Yrs2pXUOXkTOJKA.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=77yXA91djswQ7kNvwFBcQ5L&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0ODc1NDY2MjM4ODQ2MCwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Uqp9KwPOzxfXoOPLQKgO_5PvXdprOFgpSs1jLiHs3m3YyeoT4Ky_DD1mH1sKUcyB7juZp3BwyyHxH77R6OVwoRDGRuFJIPS-PkA8gMirjp06QcX4c7eaJi7Fb8Y&oh=00_AQS0BB0OV5gXoNYA5mbGbbxQU4EXcdk4nzTUWY7F-njdPg&oe=6B077237",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859727733_2260109724558886_8573557004209150669_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5W5nZr4RRycQ7kNvwGMzoxt&_nc_oc=Adpa2OTaI7DPKu4P-kMSYxQV_Qb6WNbvunC5DHFtevZi367ElE5HG3lyvG-MCfZb6RY&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRcDavz8PqBFnQf1yVsQ6HdOnqn8YHW4moMg8AgC4jGhA&oe=6B0767B1"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859727733_2260109724558886_8573557004209150669_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5W5nZr4RRycQ7kNvwGMzoxt&_nc_oc=Adpa2OTaI7DPKu4P-kMSYxQV_Qb6WNbvunC5DHFtevZi367ElE5HG3lyvG-MCfZb6RY&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRcDavz8PqBFnQf1yVsQ6HdOnqn8YHW4moMg8AgC4jGhA&oe=6B0767B1",
+          "images": [],
+          "destination": "https://ritualx.shop/products/best-selling-cash-vault-money-savings-box-10000-savings-challenge-box-piggy-bank-for-adults-kids",
+          "link": "https://www.facebook.com/ads/library/?id=2136397917040391"
+        },
+        {
+          "library_id": "1841266130479492",
+          "status": "Active",
+          "started": "Nov 20, 2026",
+          "days": 1,
+          "page_name": "Ritualx",
+          "text": "💰 Ready to build a better saving habit? Meet the 10,000 Savings Challenge Box! Make saving money more fun by depositing money and tracking your progress one step at a time. ✨ A simple way to stay focused on your savings goals. 💵 Only AED 99 🚚 Cash on Delivery available Start your savings challenge today! 0:00 / 0:16",
+          "headline": "",
+          "ads_in_group": 3,
+          "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNar2RGR6ewOh_RnZ1_2Gg9ry0JSpLWoKXac67kGQUg6snclWdCPjmkAho7wNHh-rkqRwXLVA0Eb0NCbxIZPn5HjoqqXwMc1ZzqFybYmw.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=agIuF5q-MLkQ7kNvwHOox_K&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA4ODAwMDk5NDAxNjY4MSwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSFzIfIK68V8p7kUQeorPx7gk0SCTxsQcJE2c8bY71UIw&oe=6B077841",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNar2RGR6ewOh_RnZ1_2Gg9ry0JSpLWoKXac67kGQUg6snclWdCPjmkAho7wNHh-rkqRwXLVA0Eb0NCbxIZPn5HjoqqXwMc1ZzqFybYmw.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=agIuF5q-MLkQ7kNvwHOox_K&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA4ODAwMDk5NDAxNjY4MSwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSFzIfIK68V8p7kUQeorPx7gk0SCTxsQcJE2c8bY71UIw&oe=6B077841",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859136482_1483843283937402_2648570493011141146_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ts9YVM0l2XcQ7kNvwGvJj4p&_nc_oc=AdrTbcsMiMjy6AV0kLnhm90KDte4tjX7ICpfmtGE8rUQ1N8ifxE27Pm9u8GVGcPkKGU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRdUU_-TsL4l_AMSQizuDfjcEsG1A7KNeLclLRE6cLIgw&oe=6B0748C7"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859136482_1483843283937402_2648570493011141146_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ts9YVM0l2XcQ7kNvwGvJj4p&_nc_oc=AdrTbcsMiMjy6AV0kLnhm90KDte4tjX7ICpfmtGE8rUQ1N8ifxE27Pm9u8GVGcPkKGU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRdUU_-TsL4l_AMSQizuDfjcEsG1A7KNeLclLRE6cLIgw&oe=6B0748C7",
+          "images": [],
+          "destination": "https://ritualx.shop/products/best-selling-cash-vault-money-savings-box-10000-savings-challenge-box-piggy-bank-for-adults-kids",
+          "link": "https://www.facebook.com/ads/library/?id=1841266130479492"
+        },
+        {
+          "library_id": "1113571977879649",
+          "status": "Active",
+          "started": "Oct 22, 2026",
+          "days": 30,
+          "page_name": "Ritualx",
+          "text": "🧼 Experience the freedom of cleaning with our high-pressure cordless washer. Featuring a powerful lithium battery and adjustable nozzles, it delivers professional results without any messy wires. 🔋 0:00 / 0:14 RITUALX.SHOP",
+          "headline": "High-Capacity Battery Power",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP3U8TKCBaIZtf_qeaj4MHcOhCp8Zilkt_tmqgo4nUFi5nh9UWiQbjwgHXYeiuwjayS8LWoVjiMd2K5HJ8gRke1reY8a3r4vo7zgixlZw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=Em85MXc4B14Q7kNvwEY8aIt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQyNjcwMTAzNjMyMTM2MSwiYXNzZXRfYWdlX2RheXMiOjMwLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRkulcd8o43zwNPHsd4X281cKnKgF-DW8ARcnh8JkrljA&oe=6B075FBB",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP3U8TKCBaIZtf_qeaj4MHcOhCp8Zilkt_tmqgo4nUFi5nh9UWiQbjwgHXYeiuwjayS8LWoVjiMd2K5HJ8gRke1reY8a3r4vo7zgixlZw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=Em85MXc4B14Q7kNvwEY8aIt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQyNjcwMTAzNjMyMTM2MSwiYXNzZXRfYWdlX2RheXMiOjMwLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRkulcd8o43zwNPHsd4X281cKnKgF-DW8ARcnh8JkrljA&oe=6B075FBB",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/856748143_1092760156887365_148198537148441648_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=I32WhpestgoQ7kNvwGqXSQO&_nc_oc=AdpXHuak8TJs1uX4POQUAwoMaXwkPRmZkwpoi8A3ehfne02GeSUiRfQQ3E4KkdjGE7I&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRUrr2Jy5xkE5U0eanKooUCFOCoJEpifSRFxc3FpaWmsg&oe=6B076C84"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/856748143_1092760156887365_148198537148441648_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=I32WhpestgoQ7kNvwGqXSQO&_nc_oc=AdpXHuak8TJs1uX4POQUAwoMaXwkPRmZkwpoi8A3ehfne02GeSUiRfQQ3E4KkdjGE7I&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRUrr2Jy5xkE5U0eanKooUCFOCoJEpifSRFxc3FpaWmsg&oe=6B076C84",
+          "images": [],
+          "destination": "https://ritualx.shop/products/standard-portable-cordless-pressure-washer-gun-wireless-car-wash",
+          "link": "https://www.facebook.com/ads/library/?id=1113571977879649"
+        },
+        {
+          "library_id": "3302896163245936",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Ritualx",
+          "text": "🛞 Aired down for the dunes? Air back up on the sand with a 150 PSI cordless inflator, AED 249. No more crawling to a pump. 0:00 / 0:23 HTTPS://RITUALX.SHOP",
+          "headline": "Rechargeable, cordless",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMCdjX82eQxHlFqzTQuUM1JfoSa438YctlR38sL45yx2G8mhsLWaRT3IDIJchG40AriQ_lP7wX28uLY9cHnGyaxrDUCXZOxqEdvJDLWFQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=G7WnNRb-3eAQ7kNvwG33fpS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc1NDE1NTM2OTE0NDQ0OCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Ujc4AdJz2-km4doaCk7h4B33Fs-854ZUx6mN49Q094Flqe59EmYyhqN9AdQFaLM6sqyVgvwyrfXxg2DxtKEy6WUnGnlw654W_eZFmLjGbCKxZT3RSqrmRpUI_t8&oh=00_AQRx1U_BmFsDHhThhjqSdMCXWsnPeloSxXFy4snAA17e3w&oe=6B074E1A",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMCdjX82eQxHlFqzTQuUM1JfoSa438YctlR38sL45yx2G8mhsLWaRT3IDIJchG40AriQ_lP7wX28uLY9cHnGyaxrDUCXZOxqEdvJDLWFQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=G7WnNRb-3eAQ7kNvwG33fpS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc1NDE1NTM2OTE0NDQ0OCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Ujc4AdJz2-km4doaCk7h4B33Fs-854ZUx6mN49Q094Flqe59EmYyhqN9AdQFaLM6sqyVgvwyrfXxg2DxtKEy6WUnGnlw654W_eZFmLjGbCKxZT3RSqrmRpUI_t8&oh=00_AQRx1U_BmFsDHhThhjqSdMCXWsnPeloSxXFy4snAA17e3w&oe=6B074E1A",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/825017709_1592588085694853_2395398133694231998_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DndX54bjM0IQ7kNvwGU9L4o&_nc_oc=AdrspNWXBubVU581ADMeng32NWRxG6tINTYZDlzRp03ceDXpySQ1GgvI4HO5zCwzaiE&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQQVmdJVpmMQ2SpxHPqoge-Qb1SxXjFoTwcSPsemkt_R0A&oe=6B0753E0"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/825017709_1592588085694853_2395398133694231998_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DndX54bjM0IQ7kNvwGU9L4o&_nc_oc=AdrspNWXBubVU581ADMeng32NWRxG6tINTYZDlzRp03ceDXpySQ1GgvI4HO5zCwzaiE&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQQVmdJVpmMQ2SpxHPqoge-Qb1SxXjFoTwcSPsemkt_R0A&oe=6B0753E0",
+          "images": [],
+          "destination": "https://ritualx.shop/products/150psi-tire-inflator-jump-starter?variant=49637367611544",
+          "link": "https://www.facebook.com/ads/library/?id=3302896163245936"
+        },
+        {
+          "library_id": "1450372220313486",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Ritualx",
+          "text": "🛞 Aired down for the dunes? Air back up on the sand with a 150 PSI cordless inflator, AED 249. No more crawling to a pump. 0:00 / 0:26 HTTPS://RITUALX.SHOP",
+          "headline": "Rechargeable, cordless",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP7flI67iLJMMMy5Py2d54BRE_wXLjttWCeNRP321YA7FfzhzFw-jmM-Jrauz0p6WsYGvHXcfTeJeYA1elmIaIPoQQCB26kaznzUAf_-w.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=th-Xt7lbuasQ7kNvwGZQpBf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ0ODAzMjUwMzg4MzMwMSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSt3wjH5dA_-PSp-91udY_DiLX83hyHtmfHFjuDT-Ek1g&oe=6B075D5A",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP7flI67iLJMMMy5Py2d54BRE_wXLjttWCeNRP321YA7FfzhzFw-jmM-Jrauz0p6WsYGvHXcfTeJeYA1elmIaIPoQQCB26kaznzUAf_-w.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=th-Xt7lbuasQ7kNvwGZQpBf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ0ODAzMjUwMzg4MzMwMSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSt3wjH5dA_-PSp-91udY_DiLX83hyHtmfHFjuDT-Ek1g&oe=6B075D5A",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/822340571_2923257498038699_4576409774326082271_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-qQEWVClpfcQ7kNvwFn9m5K&_nc_oc=Ado6DbvucJ10KJ2TJ9SfAimkTKp2Ha7GrQDMdKqjSZEKK1TdqNXA6Jl-6xXkdYt92Mo&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRqG_snZRQvNI-IifUbEOl_v6IR95C69_rEoeglrT8hmg&oe=6B077AEB"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/822340571_2923257498038699_4576409774326082271_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-qQEWVClpfcQ7kNvwFn9m5K&_nc_oc=Ado6DbvucJ10KJ2TJ9SfAimkTKp2Ha7GrQDMdKqjSZEKK1TdqNXA6Jl-6xXkdYt92Mo&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rYpGrBMSBH3JImR8rla0Qg&_nc_ss=7f289&oh=00_AQRqG_snZRQvNI-IifUbEOl_v6IR95C69_rEoeglrT8hmg&oe=6B077AEB",
+          "images": [],
+          "destination": "https://ritualx.shop/products/150psi-tire-inflator-jump-starter?variant=49637367611544",
+          "link": "https://www.facebook.com/ads/library/?id=1450372220313486"
+        }
+      ],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=ritualx.shop&search_type=keyword_exact_phrase",
+      "detail": "~10 results",
+      "captured": "2026-11-21T12:39:43",
+      "checked": "2026-11-21T12:39:43"
+    }
+  ]
+}
