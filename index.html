@@ -169,17 +169,29 @@ function renderDetail(){
       <button data-f="all">All stores</button><button data-f="found">With ads</button><button data-f="none">No ads</button><button data-f="error">Errors</button>
       <span style="width:12px"></span>
       <button data-a="all">All ads</button><button data-a="fresh">Fresh &lt;5d</button><button data-a="old">Established 5d+</button>
+      <span style="width:12px"></span>
+      <button data-s="new">Newest first</button><button data-s="old">Oldest first</button>
     </div><div id="stores"></div>`;
   $("#back").onclick = load;
   document.querySelectorAll("[data-f]").forEach(b => { b.classList.toggle("on", b.dataset.f === filter); b.onclick = () => { filter = b.dataset.f; renderDetail(); }; });
   document.querySelectorAll("[data-a]").forEach(b => { b.classList.toggle("on", b.dataset.a === (window.adFilter || "all")); b.onclick = () => { window.adFilter = b.dataset.a; renderDetail(); }; });
+  document.querySelectorAll("[data-s]").forEach(b => { b.classList.toggle("on", b.dataset.s === window.sortMode); b.onclick = () => { window.sortMode = (window.sortMode === b.dataset.s ? "" : b.dataset.s); renderDetail(); }; });
   const af = window.adFilter || "all";
+  const sm = window.sortMode || "";
+  const bySort = (x, y) => {                      // x, y = days running (null = unknown, always last)
+    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+    return sm === "new" ? x - y : y - x;          // fewer days = newer
+  };
   const box = $("#stores");
   const shown = items.filter(it => filter === "all" || (filter === "found" && it.state === "done" && it.found) ||
     (filter === "none" && it.state === "done" && !it.found) || (filter === "error" && it.state === "error"));
   if (!shown.length) box.innerHTML = '<div class="notice muted">Nothing to show.</div>';
-  shown.forEach(it => {
+  const prepared = shown.map(it => {
     const cards = groupAds((it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5))));
+    const kd = c => sm === "new" ? c.newest : c.days;   // new: newest ad of the card, old: oldest ad of the card
+    if (sm) cards.sort((x, y) => bySort(kd(x), kd(y)));
+    const ds = cards.map(kd).filter(x => x != null);
+    const key = !ds.length ? null : (sm === "new" ? Math.min(...ds) : Math.max(...ds));   // store position when sorting
     const d = document.createElement("details"); d.className = "store";
     let chip = '<span class="chip">not checked</span>';
     if (it.state === "error") chip = '<span class="chip err">error</span>';
@@ -196,8 +208,10 @@ function renderDetail(){
       body.appendChild(g);
     }
     if (shown.length === 1) d.open = true;
-    box.appendChild(d);
+    return {d, key};
   });
+  if (sm) prepared.sort((x, y) => bySort(x.key, y.key));
+  prepared.forEach(p => box.appendChild(p.d));
 }
 /* ---- same product link = ONE card with all its creatives ---- */
 function productKey(a){
@@ -220,7 +234,8 @@ function groupAds(ads){
       });
     });
     const first = g[0];
-    return {...first, creatives, count:g.length, anyActive:g.some(a => a.status === "Active"),
+    const dv = g.map(a => a.days).filter(x => x != null);
+    return {...first, newest: dv.length ? Math.min(...dv) : null, creatives, count:g.length, anyActive:g.some(a => a.status === "Active"),
             destination:g.map(a => a.destination).find(Boolean) || ""};
   });
 }
