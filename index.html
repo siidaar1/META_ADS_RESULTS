@@ -198,9 +198,17 @@ function adCard(a){
   const media = document.createElement("div"); media.className = "media";
   const v = safe(a.video), p = safe(a.poster) || safe((a.images || [])[0]);
   if (v){
-    const vid = document.createElement("video"); vid.controls = true; vid.preload = "none"; vid.src = v; if (p) vid.poster = p; vid.playsInline = true;
-    vid.onerror = () => { media.textContent = "Video link expired"; };
-    media.appendChild(vid);
+    media.style.position = "relative"; media.style.cursor = "pointer";
+    if (p){ const im = document.createElement("img"); im.src = p; im.loading = "lazy"; im.alt = ""; im.onerror = () => im.remove(); media.appendChild(im); }
+    const play = document.createElement("div");
+    play.textContent = "▶"; play.style.cssText = "position:absolute;width:56px;height:56px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;border:2px solid #fff";
+    media.appendChild(play);
+    media.onclick = () => {
+      media.onclick = null; media.style.cursor = "default"; media.innerHTML = "";
+      const vid = document.createElement("video"); vid.controls = true; vid.autoplay = true; vid.playsInline = true; vid.src = v;
+      vid.onerror = () => { media.textContent = "Video link expired"; };
+      media.appendChild(vid);
+    };
   } else if (p){
     const im = document.createElement("img"); im.src = p; im.loading = "lazy"; im.alt = "";
     im.onerror = () => { media.textContent = "Image link expired"; };
