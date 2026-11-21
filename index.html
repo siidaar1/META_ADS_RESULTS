@@ -37,7 +37,7 @@ main{padding:12px 24px 40px;max-width:1300px;margin:0 auto}
 .ad .acts{display:flex;gap:6px;flex-wrap:wrap}
 .ad .acts a,.ad .acts button{font-size:12px;padding:4px 9px}
 .notice{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin:10px 0}
-input{background:#12201a;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font:inherit;min-width:0}
+select,input{background:#12201a;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font:inherit;min-width:0}
 .hide{display:none!important}
 </style>
 </head>
@@ -162,56 +162,48 @@ function openList(i){
 function renderDetail(){
   const items = cur.items || [];
   const o = cur.options || {};
+  const af = window.adFilter || "all", sm = window.sortMode || "", sf = window.storeFilter || "";
+  const withAds = items.filter(it => it.state === "done" && it.found);
+  const noAds = items.filter(it => it.state === "done" && !it.found);
+  const errs = items.filter(it => it.state === "error");
   $("#detail").innerHTML = `
     <div class="bar"><button id="back">← All lists</button>
       <span class="muted">${esc(fmtDate(cur.created))} · country ${esc(o.country || "?")} · ${o.active === "active" ? "active ads" : "all ads"} · ${esc(cur.status || "")}</span></div>
     <div class="bar">
-      <button data-f="all">All stores</button><button data-f="found">With ads</button><button data-f="none">No ads</button><button data-f="error">Errors</button>
-      <span style="width:12px"></span>
       <button data-a="all">All ads</button><button data-a="fresh">Fresh &lt;5d</button><button data-a="old">Established 5d+</button>
       <span style="width:12px"></span>
       <button data-s="new">Newest first</button><button data-s="old">Oldest first</button>
-    </div><div id="stores"></div>`;
+      <span style="width:12px"></span>
+      <select id="storeSel"><option value="">All stores</option>${withAds.map(it => `<option value="${esc(it.query)}">${esc(it.query)}</option>`).join("")}</select>
+    </div>
+    <div class="muted" id="count" style="margin-bottom:10px"></div>
+    <div class="ads" id="cards" style="padding:0"></div>
+    <details class="store" style="margin-top:18px"><summary><b>Stores without ads / errors</b>
+      <span class="chip warn">${noAds.length} no ads</span>${errs.length ? `<span class="chip err">${errs.length} errors</span>` : ""}</summary>
+      <div style="padding:0 16px 14px">${[...noAds.map(it => [it, "no ads"]), ...errs.map(it => [it, "error: " + (it.detail || "")])]
+        .map(([it, t]) => `<div>${esc(it.query || it.url)} <span class="muted">· ${esc(t)}</span></div>`).join("") || '<span class="muted">none</span>'}</div></details>`;
   $("#back").onclick = load;
-  document.querySelectorAll("[data-f]").forEach(b => { b.classList.toggle("on", b.dataset.f === filter); b.onclick = () => { filter = b.dataset.f; renderDetail(); }; });
-  document.querySelectorAll("[data-a]").forEach(b => { b.classList.toggle("on", b.dataset.a === (window.adFilter || "all")); b.onclick = () => { window.adFilter = b.dataset.a; renderDetail(); }; });
-  document.querySelectorAll("[data-s]").forEach(b => { b.classList.toggle("on", b.dataset.s === window.sortMode); b.onclick = () => { window.sortMode = (window.sortMode === b.dataset.s ? "" : b.dataset.s); renderDetail(); }; });
-  const af = window.adFilter || "all";
-  const sm = window.sortMode || "";
-  const bySort = (x, y) => {                      // x, y = days running (null = unknown, always last)
-    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
-    return sm === "new" ? x - y : y - x;          // fewer days = newer
-  };
-  const box = $("#stores");
-  const shown = items.filter(it => filter === "all" || (filter === "found" && it.state === "done" && it.found) ||
-    (filter === "none" && it.state === "done" && !it.found) || (filter === "error" && it.state === "error"));
-  if (!shown.length) box.innerHTML = '<div class="notice muted">Nothing to show.</div>';
-  const prepared = shown.map(it => {
-    const cards = groupAds((it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5))));
-    const kd = c => sm === "new" ? c.newest : c.days;   // new: newest ad of the card, old: oldest ad of the card
-    if (sm) cards.sort((x, y) => bySort(kd(x), kd(y)));
-    const ds = cards.map(kd).filter(x => x != null);
-    const key = !ds.length ? null : (sm === "new" ? Math.min(...ds) : Math.max(...ds));   // store position when sorting
-    const d = document.createElement("details"); d.className = "store";
-    let chip = '<span class="chip">not checked</span>';
-    if (it.state === "error") chip = '<span class="chip err">error</span>';
-    else if (it.state === "done") chip = it.found ? `<span class="chip ok">${esc(it.total || "ads found")}</span>` : '<span class="chip warn">no ads</span>';
-    const lib = safe(it.ad_library_url);
-    d.innerHTML = `<summary><b>${esc(it.query || it.url)}</b>${chip}<span class="chip">${cards.length} card(s)</span></summary><div class="body"></div>`;
-    const body = d.querySelector(".body");
-    const acts = document.createElement("div"); acts.className = "bar"; acts.style.padding = "0 16px";
-    acts.innerHTML = `${safe(it.url) ? `<a class="btn" href="${esc(safe(it.url))}" target="_blank" rel="noopener">Visit store</a>` : ""}${lib ? `<a class="btn" href="${esc(lib)}" target="_blank" rel="noopener">Open in Ads Library</a>` : ""}${it.state === "error" ? `<span class="muted">${esc(it.detail)}</span>` : ""}`;
-    body.appendChild(acts);
-    if (cards.length){
-      const g = document.createElement("div"); g.className = "ads";
-      cards.forEach(a => g.appendChild(adCard(a)));
-      body.appendChild(g);
-    }
-    if (shown.length === 1) d.open = true;
-    return {d, key};
+  document.querySelectorAll("[data-a]").forEach(b => { b.classList.toggle("on", b.dataset.a === af); b.onclick = () => { window.adFilter = b.dataset.a; renderDetail(); }; });
+  document.querySelectorAll("[data-s]").forEach(b => { b.classList.toggle("on", b.dataset.s === sm); b.onclick = () => { window.sortMode = (sm === b.dataset.s ? "" : b.dataset.s); renderDetail(); }; });
+  $("#storeSel").value = sf; $("#storeSel").onchange = e => { window.storeFilter = e.target.value; renderDetail(); };
+
+  // every store's ads -> cards (same product = one card), all stores in one list
+  let cards = [];
+  withAds.filter(it => !sf || it.query === sf).forEach(it => {
+    const ads = (it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5)));
+    groupAds(ads).forEach(c => { c.store = it.query; c.store_url = it.url; cards.push(c); });
   });
-  if (sm) prepared.sort((x, y) => bySort(x.key, y.key));
-  prepared.forEach(p => box.appendChild(p.d));
+  if (sm){
+    const kd = c => sm === "new" ? c.newest : c.days;        // new: newest ad of the card, old: oldest ad of the card
+    cards.sort((x, y) => {
+      const a = kd(x), b = kd(y);
+      if (a == null && b == null) return 0; if (a == null) return 1; if (b == null) return -1;
+      return sm === "new" ? a - b : b - a;
+    });
+  }
+  $("#count").textContent = `${cards.length} card(s) from ${new Set(cards.map(c => c.store)).size} store(s)`;
+  if (!cards.length) $("#cards").innerHTML = '<div class="notice muted">Nothing to show.</div>';
+  cards.forEach(c => $("#cards").appendChild(adCard(c)));
 }
 /* ---- same product link = ONE card with all its creatives ---- */
 function productKey(a){
@@ -284,6 +276,7 @@ function adCard(a){
   const body = document.createElement("div"); body.className = "body";
   body.innerHTML = `<div class="stats"><span class="chip ${a.anyActive ? "ok" : ""}">${a.anyActive ? "Active" : esc(a.status || "?")}</span>${age}
       ${a.creatives.length > 1 ? `<span class="chip">${a.creatives.length} creatives</span>` : ""}${a.count > 1 ? `<span class="chip">${a.count} ads</span>` : ""}</div>
+    ${a.store ? `<div class="muted" style="font-size:12px">${esc(a.store)}</div>` : ""}
     <div><b>${esc(a.page_name)}</b> <span class="muted">· started ${esc(a.started || "?")}</span></div>
     ${a.headline ? `<div>${esc(a.headline)}</div>` : ""}
     <div class="txt">${esc(a.text)}</div>
