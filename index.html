@@ -191,7 +191,7 @@ function renderDetail(){
   let cards = [];
   withAds.filter(it => !sf || it.query === sf).forEach(it => {
     const ads = (it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5)));
-    groupAds(ads).forEach(c => { c.store = it.query; c.store_url = it.url; cards.push(c); });
+    groupAds(ads).forEach(c => { c.store = it.query; c.store_url = it.url; c.store_lib = safe(it.ad_library_url); cards.push(c); });
   });
   if (sm){
     const kd = c => sm === "new" ? c.newest : c.days;        // new: newest ad of the card, old: oldest ad of the card
@@ -266,7 +266,7 @@ function adCard(a){
     }
     cap.innerHTML = `<span>${a.creatives.length > 1 ? `Creative ${idx + 1} / ${a.creatives.length}` : "1 creative"}</span>
       <span>${c.days != null ? esc(c.days) + " day" + (c.days === 1 ? "" : "s") : ""}${c.started ? " · " + esc(c.started) : ""}</span>
-      ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener" style="color:var(--accent)">Library</a>` : ""}`;
+      ${(a.store_lib || c.link) ? `<a href="${esc(a.store_lib || c.link)}" target="_blank" rel="noopener" style="color:var(--accent)">Library</a>` : ""}`;
   }
   show();
   const days = a.days;
