@@ -64,7 +64,7 @@ input{background:#12201a;color:var(--ink);border:1px solid var(--line);border-ra
 <script>
 "use strict";
 const $ = s => document.querySelector(s);
-const DEF = {repo:"siidaar1/META_ADS_BOT", branch:"main", folder:"saved", token:""};
+const DEF = {repo:"siidaar1/META_ADS_RESULTS", branch:"main", folder:"saved", token:""};
 let cfg = {...DEF};
 try { Object.assign(cfg, JSON.parse(localStorage.getItem("metaAdsViewer") || "{}")); } catch(e){}
 
