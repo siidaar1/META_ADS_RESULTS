@@ -64,7 +64,13 @@ input{background:#12201a;color:var(--ink);border:1px solid var(--line);border-ra
 <script>
 "use strict";
 const $ = s => document.querySelector(s);
-const DEF = {repo:"siidaar1/META_ADS_RESULTS", branch:"main", folder:"saved", token:""};
+// on GitHub Pages (owner.github.io/repo/) the repo is detected automatically
+let guess = "siidaar1/META_ADS_RESULTS";
+if (/\.github\.io$/i.test(location.hostname)) {
+  const seg = location.pathname.split("/").filter(Boolean)[0];
+  if (seg) guess = location.hostname.split(".")[0] + "/" + seg;
+}
+const DEF = {repo:guess, branch:"main", folder:"saved", token:""};
 let cfg = {...DEF};
 try { Object.assign(cfg, JSON.parse(localStorage.getItem("metaAdsViewer") || "{}")); } catch(e){}
 
@@ -173,53 +179,96 @@ function renderDetail(){
     (filter === "none" && it.state === "done" && !it.found) || (filter === "error" && it.state === "error"));
   if (!shown.length) box.innerHTML = '<div class="notice muted">Nothing to show.</div>';
   shown.forEach(it => {
-    const ads = (it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5)));
+    const cards = groupAds((it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5))));
     const d = document.createElement("details"); d.className = "store";
     let chip = '<span class="chip">not checked</span>';
     if (it.state === "error") chip = '<span class="chip err">error</span>';
     else if (it.state === "done") chip = it.found ? `<span class="chip ok">${esc(it.total || "ads found")}</span>` : '<span class="chip warn">no ads</span>';
     const lib = safe(it.ad_library_url);
-    d.innerHTML = `<summary><b>${esc(it.query || it.url)}</b>${chip}<span class="chip">${ads.length} ad(s) shown</span></summary><div class="body"></div>`;
+    d.innerHTML = `<summary><b>${esc(it.query || it.url)}</b>${chip}<span class="chip">${cards.length} card(s)</span></summary><div class="body"></div>`;
     const body = d.querySelector(".body");
     const acts = document.createElement("div"); acts.className = "bar"; acts.style.padding = "0 16px";
     acts.innerHTML = `${safe(it.url) ? `<a class="btn" href="${esc(safe(it.url))}" target="_blank" rel="noopener">Visit store</a>` : ""}${lib ? `<a class="btn" href="${esc(lib)}" target="_blank" rel="noopener">Open in Ads Library</a>` : ""}${it.state === "error" ? `<span class="muted">${esc(it.detail)}</span>` : ""}`;
     body.appendChild(acts);
-    if (ads.length){
+    if (cards.length){
       const g = document.createElement("div"); g.className = "ads";
-      ads.forEach(a => g.appendChild(adCard(a)));
+      cards.forEach(a => g.appendChild(adCard(a)));
       body.appendChild(g);
     }
     if (shown.length === 1) d.open = true;
     box.appendChild(d);
   });
 }
+/* ---- same product link = ONE card with all its creatives ---- */
+function productKey(a){
+  const d = safe(a.destination);
+  if (!d) return "id:" + a.library_id;
+  try { const u = new URL(d); return u.hostname.replace(/^www\./, "").toLowerCase() + u.pathname.replace(/\/+$/, "").toLowerCase(); }
+  catch(e){ return "id:" + a.library_id; }
+}
+function groupAds(ads){
+  const map = new Map();
+  ads.forEach(a => { const k = productKey(a); if (!map.has(k)) map.set(k, []); map.get(k).push(a); });
+  return [...map.values()].map(g => {
+    g.sort((x, y) => (y.days ?? -1) - (x.days ?? -1));        // longest-running first
+    const seen = new Set(), creatives = [];
+    g.forEach(a => {
+      const list = (a.clips && a.clips.length) ? a.clips : [{video:a.video, poster:a.poster || (a.images || [])[0]}];
+      list.forEach(c => {
+        const key = c.video || c.poster || ""; if (key && seen.has(key)) return; seen.add(key);
+        creatives.push({video:safe(c.video), poster:safe(c.poster), days:a.days, started:a.started, status:a.status, id:a.library_id, link:safe(a.link)});
+      });
+    });
+    const first = g[0];
+    return {...first, creatives, count:g.length, anyActive:g.some(a => a.status === "Active"),
+            destination:g.map(a => a.destination).find(Boolean) || ""};
+  });
+}
 function adCard(a){
   const el = document.createElement("div"); el.className = "ad";
-  const media = document.createElement("div"); media.className = "media";
-  const v = safe(a.video), p = safe(a.poster) || safe((a.images || [])[0]);
-  if (v){
-    media.style.position = "relative"; media.style.cursor = "pointer";
-    if (p){ const im = document.createElement("img"); im.src = p; im.loading = "lazy"; im.alt = ""; im.onerror = () => im.remove(); media.appendChild(im); }
-    const play = document.createElement("div");
-    play.textContent = "▶"; play.style.cssText = "position:absolute;width:56px;height:56px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;border:2px solid #fff";
-    media.appendChild(play);
-    media.onclick = () => {
-      media.onclick = null; media.style.cursor = "default"; media.innerHTML = "";
-      const vid = document.createElement("video"); vid.controls = true; vid.autoplay = true; vid.playsInline = true; vid.src = v;
-      vid.onerror = () => { media.textContent = "Video link expired"; };
-      media.appendChild(vid);
-    };
-  } else if (p){
-    const im = document.createElement("img"); im.src = p; im.loading = "lazy"; im.alt = "";
-    im.onerror = () => { media.textContent = "Image link expired"; };
-    media.appendChild(im);
-  } else media.textContent = "No media";
+  const media = document.createElement("div"); media.className = "media"; media.style.position = "relative";
+  const cap = document.createElement("div"); cap.className = "muted"; cap.style.cssText = "font-size:12px;padding:6px 12px 0;display:flex;justify-content:space-between;gap:8px;align-items:center";
+  let idx = 0;
+  function show(){
+    const c = a.creatives[idx];
+    media.innerHTML = ""; media.style.cursor = "default"; media.onclick = null;
+    if (c.video){
+      media.style.cursor = "pointer";
+      if (c.poster){ const im = document.createElement("img"); im.src = c.poster; im.loading = "lazy"; im.alt = ""; im.onerror = () => im.remove(); media.appendChild(im); }
+      const play = document.createElement("div"); play.textContent = "▶";
+      play.style.cssText = "position:absolute;width:56px;height:56px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px;border:2px solid #fff";
+      media.appendChild(play);
+      media.onclick = () => {                      // the video is created only now, so nothing downloads before the click
+        media.onclick = null; media.style.cursor = "default"; media.innerHTML = "";
+        const vid = document.createElement("video"); vid.controls = true; vid.autoplay = true; vid.playsInline = true; vid.src = c.video;
+        vid.onerror = () => { media.textContent = "Video link expired"; };
+        media.appendChild(vid);
+      };
+    } else if (c.poster){
+      const im = document.createElement("img"); im.src = c.poster; im.loading = "lazy"; im.alt = "";
+      im.onerror = () => { media.textContent = "Image link expired"; };
+      media.appendChild(im);
+    } else media.textContent = "No media";
+    if (a.creatives.length > 1){
+      [["‹", -1, "left:6px"], ["›", 1, "right:6px"]].forEach(([t, d, pos]) => {
+        const b = document.createElement("button");
+        b.textContent = t; b.style.cssText = `position:absolute;top:50%;transform:translateY(-50%);${pos};z-index:2;width:34px;height:44px;font-size:22px;padding:0;background:rgba(0,0,0,.6)`;
+        b.onclick = ev => { ev.stopPropagation(); idx = (idx + d + a.creatives.length) % a.creatives.length; show(); };
+        media.appendChild(b);
+      });
+    }
+    cap.innerHTML = `<span>${a.creatives.length > 1 ? `Creative ${idx + 1} / ${a.creatives.length}` : "1 creative"}</span>
+      <span>${c.days != null ? esc(c.days) + " day" + (c.days === 1 ? "" : "s") : ""}${c.started ? " · " + esc(c.started) : ""}</span>
+      ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener" style="color:var(--accent)">Library</a>` : ""}`;
+  }
+  show();
   const days = a.days;
   const age = days == null ? "" : `<span class="chip ${days < 5 ? "ok" : ""}">${days} day${days === 1 ? "" : "s"}${days < 5 ? " · fresh" : ""}</span>`;
   const dest = safe(a.destination), link = safe(a.link);
-  el.appendChild(media);
+  el.appendChild(media); el.appendChild(cap);
   const body = document.createElement("div"); body.className = "body";
-  body.innerHTML = `<div class="stats"><span class="chip ${a.status === "Active" ? "ok" : ""}">${esc(a.status || "?")}</span>${age}${a.ads_in_group > 1 ? `<span class="chip">${a.ads_in_group} ads use it</span>` : ""}</div>
+  body.innerHTML = `<div class="stats"><span class="chip ${a.anyActive ? "ok" : ""}">${a.anyActive ? "Active" : esc(a.status || "?")}</span>${age}
+      ${a.creatives.length > 1 ? `<span class="chip">${a.creatives.length} creatives</span>` : ""}${a.count > 1 ? `<span class="chip">${a.count} ads</span>` : ""}</div>
     <div><b>${esc(a.page_name)}</b> <span class="muted">· started ${esc(a.started || "?")}</span></div>
     ${a.headline ? `<div>${esc(a.headline)}</div>` : ""}
     <div class="txt">${esc(a.text)}</div>
