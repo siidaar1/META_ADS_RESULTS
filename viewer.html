@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>META ADS Viewer</title>
+<style>
+:root{color-scheme:dark;--bg:#0f1a16;--panel:#18271f;--panel2:#1d2f26;--line:#2a4036;--ink:#e9f0ec;--muted:#9db1a6;--accent:#b3cddd;--ok:#7fdcaa;--warn:#f0c674;--err:#ef8b8b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+header{padding:20px 24px 8px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+h1{margin:0;font-size:22px;flex:1}
+button,.btn{background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 12px;font:inherit;cursor:pointer;text-decoration:none;display:inline-block}
+button:hover,.btn:hover{border-color:var(--accent)}
+button.on{background:var(--accent);color:#10201a;border-color:var(--accent)}
+main{padding:12px 24px 40px;max-width:1300px;margin:0 auto}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;cursor:pointer;text-align:left;color:inherit;font:inherit}
+.box:hover{border-color:var(--accent);background:var(--panel2)}
+.box h3{margin:0 0 2px;font-size:17px;word-break:break-word}
+.box .date{font-size:12px;color:var(--muted);margin-bottom:10px}
+.stats{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;padding:2px 9px;border-radius:99px;border:1px solid var(--line);background:#12201a}
+.chip.ok{color:var(--ok)}.chip.warn{color:var(--warn)}.chip.err{color:var(--err)}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0 16px}
+.store{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+.store>summary{list-style:none;cursor:pointer;padding:12px 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.store>summary::-webkit-details-marker{display:none}
+.store>summary b{flex:1;min-width:160px;word-break:break-all}
+.ads{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;padding:4px 16px 16px}
+.ad{background:#12201a;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.media{background:#000;aspect-ratio:9/16;max-height:420px;width:100%;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+.media video,.media img{width:100%;height:100%;object-fit:contain}
+.ad .body{padding:10px 12px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.ad .txt{max-height:6.2em;overflow:auto;color:#cdd9d2}
+.ad .acts{display:flex;gap:6px;flex-wrap:wrap}
+.ad .acts a,.ad .acts button{font-size:12px;padding:4px 9px}
+.notice{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin:10px 0}
+input{background:#12201a;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font:inherit;min-width:0}
+.hide{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">META ADS — Saved lists</h1>
+  <button id="settingsBtn" title="Repo / token settings">⚙ Settings</button>
+  <button id="reload">↻ Reload</button>
+</header>
+<main>
+  <div id="settings" class="notice hide">
+    <div class="muted" style="margin-bottom:8px">Where the <b>saved</b> folder is. Leave the token empty if the repo is public or this page is hosted next to the folder.</div>
+    <div class="bar">
+      <input id="repo" placeholder="owner/repo" size="26">
+      <input id="branch" placeholder="branch" size="8">
+      <input id="folder" placeholder="folder" size="10">
+      <input id="token" type="password" placeholder="GitHub token (optional)" size="26">
+      <button id="save">Save &amp; reload</button>
+    </div>
+  </div>
+  <div id="list"></div>
+  <div id="detail" class="hide"></div>
+</main>
+<script>
+"use strict";
+const $ = s => document.querySelector(s);
+const DEF = {repo:"siidaar1/META_ADS_BOT", branch:"main", folder:"saved", token:""};
+let cfg = {...DEF};
+try { Object.assign(cfg, JSON.parse(localStorage.getItem("metaAdsViewer") || "{}")); } catch(e){}
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safe = u => /^https?:\/\//i.test(u || "") ? u : "";
+const fmtDate = s => { const d = new Date(s); return isNaN(d) ? "" : d.toLocaleString(); };
+
+/* ---------- finding and reading the json files ---------- */
+function ghHeaders(raw){
+  const h = {"Accept": raw ? "application/vnd.github.raw+json" : "application/vnd.github+json"};
+  if (cfg.token) h.Authorization = "Bearer " + cfg.token;
+  return h;
+}
+async function listFiles(){
+  const errors = [];
+  // 1) GitHub API
+  try {
+    const url = `https://api.github.com/repos/${cfg.repo}/contents/${cfg.folder}?ref=${encodeURIComponent(cfg.branch)}`;
+    const r = await fetch(url, {headers: ghHeaders(false)});
+    if (!r.ok) throw new Error("GitHub " + r.status);
+    const j = await r.json();
+    const files = j.filter(f => f.type === "file" && /\.json$/i.test(f.name)).map(f => ({name:f.name, path:f.path, download:f.download_url}));
+    if (files.length) return files;
+    errors.push("GitHub folder has no .json files");
+  } catch(e){ errors.push(String(e.message || e)); }
+  // 2) directory listing next to this page (local server such as python -m http.server)
+  try {
+    const r = await fetch(cfg.folder + "/");
+    if (!r.ok) throw new Error("folder listing " + r.status);
+    const doc = new DOMParser().parseFromString(await r.text(), "text/html");
+    const files = [...doc.querySelectorAll("a[href]")].map(a => decodeURIComponent(a.getAttribute("href")))
+      .filter(h => /\.json$/i.test(h) && !h.includes("://")).map(h => h.split("/").pop())
+      .map(n => ({name:n, path:cfg.folder + "/" + n, download:""}));
+    if (files.length) return files;
+    errors.push("no .json files in folder listing");
+  } catch(e){ errors.push(String(e.message || e)); }
+  const err = new Error(errors.join(" | ")); throw err;
+}
+async function readFile(f){
+  const tries = [];
+  if (cfg.token) tries.push(() => fetch(`https://api.github.com/repos/${cfg.repo}/contents/${f.path}?ref=${encodeURIComponent(cfg.branch)}`, {headers: ghHeaders(true)}));
+  tries.push(() => fetch(f.path));                 // same site (GitHub Pages / local server)
+  if (f.download) tries.push(() => fetch(f.download));
+  for (const t of tries){
+    try { const r = await t(); if (r.ok) return await r.json(); } catch(e){}
+  }
+  throw new Error("could not read " + f.name);
+}
+
+/* ---------- list screen ---------- */
+let lists = [];
+async function load(){
+  $("#detail").classList.add("hide"); $("#list").classList.remove("hide");
+  $("#title").textContent = "META ADS — Saved lists";
+  $("#list").innerHTML = '<div class="notice muted">Loading…</div>';
+  let files;
+  try { files = await listFiles(); }
+  catch(e){
+    $("#list").innerHTML = `<div class="notice"><b>Could not find the saved folder.</b><div class="muted" style="margin-top:6px">${esc(e.message)}</div>
+      <div class="muted" style="margin-top:6px">Open ⚙ Settings and check the repo, branch and folder (add a token if the repo is private).</div></div>`;
+    return;
+  }
+  const out = await Promise.all(files.map(async f => { try { return {f, d: await readFile(f)}; } catch(e){ return {f, d:null}; } }));
+  lists = out.filter(x => x.d && Array.isArray(x.d.items)).map(x => ({...x.d, _file:x.f.name}));
+  lists.sort((a,b) => String(b.created || b.id || "").localeCompare(String(a.created || a.id || "")));
+  const bad = out.length - lists.length;
+  if (!lists.length){ $("#list").innerHTML = '<div class="notice muted">No readable list files found.</div>'; return; }
+  $("#list").innerHTML = `<div class="muted" style="margin-bottom:10px">${lists.length} saved list(s)${bad ? ` · ${bad} file(s) could not be read` : ""}</div><div class="grid" id="grid"></div>`;
+  lists.forEach((l, i) => {
+    const c = l.counts || {};
+    const b = document.createElement("button"); b.className = "box";
+    b.innerHTML = `<h3>${esc(l.name || l.id)}</h3><div class="date">${esc(fmtDate(l.created || l.updated))} · ${esc(l.status || "")}</div>
+      <div class="stats"><span class="chip">${c.total ?? l.items.length} links</span>
+      <span class="chip ok">${c.found ?? 0} with ads</span><span class="chip warn">${c.no_ads ?? 0} no ads</span>
+      ${c.errors ? `<span class="chip err">${c.errors} errors</span>` : ""}</div>`;
+    b.onclick = () => openList(i);
+    $("#grid").appendChild(b);
+  });
+}
+
+/* ---------- detail screen ---------- */
+let cur = null, filter = "all", showAll = false;
+function openList(i){
+  cur = lists[i]; filter = "all"; showAll = false;
+  $("#list").classList.add("hide"); $("#detail").classList.remove("hide");
+  $("#title").textContent = cur.name || cur.id;
+  renderDetail(); window.scrollTo(0,0);
+}
+function renderDetail(){
+  const items = cur.items || [];
+  const o = cur.options || {};
+  $("#detail").innerHTML = `
+    <div class="bar"><button id="back">← All lists</button>
+      <span class="muted">${esc(fmtDate(cur.created))} · country ${esc(o.country || "?")} · ${o.active === "active" ? "active ads" : "all ads"} · ${esc(cur.status || "")}</span></div>
+    <div class="bar">
+      <button data-f="all">All stores</button><button data-f="found">With ads</button><button data-f="none">No ads</button><button data-f="error">Errors</button>
+      <span style="width:12px"></span>
+      <button data-a="all">All ads</button><button data-a="fresh">Fresh &lt;5d</button><button data-a="old">Established 5d+</button>
+    </div><div id="stores"></div>`;
+  $("#back").onclick = load;
+  document.querySelectorAll("[data-f]").forEach(b => { b.classList.toggle("on", b.dataset.f === filter); b.onclick = () => { filter = b.dataset.f; renderDetail(); }; });
+  document.querySelectorAll("[data-a]").forEach(b => { b.classList.toggle("on", b.dataset.a === (window.adFilter || "all")); b.onclick = () => { window.adFilter = b.dataset.a; renderDetail(); }; });
+  const af = window.adFilter || "all";
+  const box = $("#stores");
+  const shown = items.filter(it => filter === "all" || (filter === "found" && it.state === "done" && it.found) ||
+    (filter === "none" && it.state === "done" && !it.found) || (filter === "error" && it.state === "error"));
+  if (!shown.length) box.innerHTML = '<div class="notice muted">Nothing to show.</div>';
+  shown.forEach(it => {
+    const ads = (it.ads || []).filter(a => af === "all" || (af === "fresh" ? (a.days != null && a.days < 5) : (a.days == null || a.days >= 5)));
+    const d = document.createElement("details"); d.className = "store";
+    let chip = '<span class="chip">not checked</span>';
+    if (it.state === "error") chip = '<span class="chip err">error</span>';
+    else if (it.state === "done") chip = it.found ? `<span class="chip ok">${esc(it.total || "ads found")}</span>` : '<span class="chip warn">no ads</span>';
+    const lib = safe(it.ad_library_url);
+    d.innerHTML = `<summary><b>${esc(it.query || it.url)}</b>${chip}<span class="chip">${ads.length} ad(s) shown</span></summary><div class="body"></div>`;
+    const body = d.querySelector(".body");
+    const acts = document.createElement("div"); acts.className = "bar"; acts.style.padding = "0 16px";
+    acts.innerHTML = `${safe(it.url) ? `<a class="btn" href="${esc(safe(it.url))}" target="_blank" rel="noopener">Visit store</a>` : ""}${lib ? `<a class="btn" href="${esc(lib)}" target="_blank" rel="noopener">Open in Ads Library</a>` : ""}${it.state === "error" ? `<span class="muted">${esc(it.detail)}</span>` : ""}`;
+    body.appendChild(acts);
+    if (ads.length){
+      const g = document.createElement("div"); g.className = "ads";
+      ads.forEach(a => g.appendChild(adCard(a)));
+      body.appendChild(g);
+    }
+    if (shown.length === 1) d.open = true;
+    box.appendChild(d);
+  });
+}
+function adCard(a){
+  const el = document.createElement("div"); el.className = "ad";
+  const media = document.createElement("div"); media.className = "media";
+  const v = safe(a.video), p = safe(a.poster) || safe((a.images || [])[0]);
+  if (v){
+    const vid = document.createElement("video"); vid.controls = true; vid.preload = "none"; vid.src = v; if (p) vid.poster = p; vid.playsInline = true;
+    vid.onerror = () => { media.textContent = "Video link expired"; };
+    media.appendChild(vid);
+  } else if (p){
+    const im = document.createElement("img"); im.src = p; im.loading = "lazy"; im.alt = "";
+    im.onerror = () => { media.textContent = "Image link expired"; };
+    media.appendChild(im);
+  } else media.textContent = "No media";
+  const days = a.days;
+  const age = days == null ? "" : `<span class="chip ${days < 5 ? "ok" : ""}">${days} day${days === 1 ? "" : "s"}${days < 5 ? " · fresh" : ""}</span>`;
+  const dest = safe(a.destination), link = safe(a.link);
+  el.appendChild(media);
+  const body = document.createElement("div"); body.className = "body";
+  body.innerHTML = `<div class="stats"><span class="chip ${a.status === "Active" ? "ok" : ""}">${esc(a.status || "?")}</span>${age}${a.ads_in_group > 1 ? `<span class="chip">${a.ads_in_group} ads use it</span>` : ""}</div>
+    <div><b>${esc(a.page_name)}</b> <span class="muted">· started ${esc(a.started || "?")}</span></div>
+    ${a.headline ? `<div>${esc(a.headline)}</div>` : ""}
+    <div class="txt">${esc(a.text)}</div>
+    <div class="acts">${dest ? `<a class="btn" href="${esc(dest)}" target="_blank" rel="noopener">Visit site</a><button data-copy>Copy link</button>` : ""}${link ? `<a class="btn" href="${esc(link)}" target="_blank" rel="noopener">Find in Ads Library</a>` : ""}</div>`;
+  const cb = body.querySelector("[data-copy]");
+  if (cb) cb.onclick = async () => { try { await navigator.clipboard.writeText(dest); cb.textContent = "Copied ✓"; setTimeout(() => cb.textContent = "Copy link", 1200); } catch(e){ prompt("Copy:", dest); } };
+  el.appendChild(body);
+  return el;
+}
+
+/* ---------- settings ---------- */
+$("#settingsBtn").onclick = () => $("#settings").classList.toggle("hide");
+for (const k of ["repo","branch","folder","token"]) $("#" + k).value = cfg[k] || "";
+$("#save").onclick = () => {
+  for (const k of ["repo","branch","folder","token"]) cfg[k] = $("#" + k).value.trim() || (k === "token" ? "" : DEF[k]);
+  cfg.folder = cfg.folder.replace(/^\/+|\/+$/g, "");
+  try { localStorage.setItem("metaAdsViewer", JSON.stringify(cfg)); } catch(e){}
+  $("#settings").classList.add("hide"); load();
+};
+$("#reload").onclick = load;
+load();
+</script>
+</body>
+</html>
