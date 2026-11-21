@@ -1,0 +1,220 @@
+{
+  "id": "2026-11-21_12-06-13_sample_urls",
+  "name": "sample_urls",
+  "created": "2026-11-21T12:06:13",
+  "updated": "2026-11-21T12:07:01",
+  "status": "done",
+  "options": {
+    "country": "ALL",
+    "active": "all",
+    "max_ads": 100,
+    "headless": true
+  },
+  "counts": {
+    "total": 5,
+    "checked": 5,
+    "found": 1,
+    "no_ads": 4,
+    "errors": 0
+  },
+  "items": [
+    {
+      "url": "https://todaysofferr.myshopify.com",
+      "query": "todaysofferr.myshopify.com",
+      "state": "done",
+      "found": false,
+      "count": 0,
+      "total": "no ads",
+      "ads": [],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=todaysofferr.myshopify.com&search_type=keyword_exact_phrase",
+      "detail": "No ads found",
+      "captured": "2026-11-21T12:06:13",
+      "checked": "2026-11-21T12:06:13"
+    },
+    {
+      "url": "https://gulfnest-shop.myshopify.com",
+      "query": "gulfnest-shop.myshopify.com",
+      "state": "done",
+      "found": false,
+      "count": 0,
+      "total": "no ads",
+      "ads": [],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=gulfnest-shop.myshopify.com&search_type=keyword_exact_phrase",
+      "detail": "No ads found",
+      "captured": "2026-11-21T12:06:24",
+      "checked": "2026-11-21T12:06:24"
+    },
+    {
+      "url": "https://www.dotlyy.shop",
+      "query": "dotlyy.shop",
+      "state": "done",
+      "found": false,
+      "count": 0,
+      "total": "no ads",
+      "ads": [],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=dotlyy.shop&search_type=keyword_exact_phrase",
+      "detail": "No ads found",
+      "captured": "2026-11-21T12:06:31",
+      "checked": "2026-11-21T12:06:31"
+    },
+    {
+      "url": "https://safwa-store.shop",
+      "query": "safwa-store.shop",
+      "state": "done",
+      "found": false,
+      "count": 0,
+      "total": "no ads",
+      "ads": [],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=safwa-store.shop&search_type=keyword_exact_phrase",
+      "detail": "No ads found",
+      "captured": "2026-11-21T12:06:41",
+      "checked": "2026-11-21T12:06:41"
+    },
+    {
+      "url": "https://ritualx.shop",
+      "query": "ritualx.shop",
+      "state": "done",
+      "found": true,
+      "count": 10,
+      "total": "~10 results",
+      "ads": [
+        {
+          "library_id": "1734573897822295",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Ritualx",
+          "text": "🛞 Aired down for the dunes? Air back up on the sand with a 150 PSI cordless inflator, AED 249. No more crawling to a pump. 0:00 / 0:23 HTTPS://RITUALX.SHOP",
+          "headline": "Rechargeable, cordless",
+          "ads_in_group": 1,
+          "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMuwBZtn4x0-RH9PMn209rtCe6n_M4RNP4nbUIlbWMskyeajTNog5w5CgixQI6rAsP8RT0sBX17e4vWGy9LDBeyxwn40xGcyzM5dQq_HQ.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=BQABqRFKmY8Q7kNvwFQfAQy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM5MDAzMjEwNjA5MjMyNSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSAo5JFAksL1vU1KPLjXAgWo0c-2CvU4k3UNq2qYb-IYQ&oe=6B076C84",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMuwBZtn4x0-RH9PMn209rtCe6n_M4RNP4nbUIlbWMskyeajTNog5w5CgixQI6rAsP8RT0sBX17e4vWGy9LDBeyxwn40xGcyzM5dQq_HQ.mp4?_nc_cat=110&_nc_sid=ef5aa3&_nc_ht=video-lhr6-2.xx.fbcdn.net&_nc_ohc=BQABqRFKmY8Q7kNvwFQfAQy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTM5MDAzMjEwNjA5MjMyNSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSAo5JFAksL1vU1KPLjXAgWo0c-2CvU4k3UNq2qYb-IYQ&oe=6B076C84",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/819472459_1678218523718879_6339659183420611500_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e9EeXj-9BmsQ7kNvwGlFQRb&_nc_oc=AdpivBWuwFMJj5u6aNl1Q75ZVPw9Y4oG2yOqrMXlmJXc-pW1chOOZwm64lC5S13JVms&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQQQaPNeOnsNLHnF-3rwsV-VCI4Dbf6VsUrUvPv36Qv9XQ&oe=6B0767DF"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/819472459_1678218523718879_6339659183420611500_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=e9EeXj-9BmsQ7kNvwGlFQRb&_nc_oc=AdpivBWuwFMJj5u6aNl1Q75ZVPw9Y4oG2yOqrMXlmJXc-pW1chOOZwm64lC5S13JVms&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQQQaPNeOnsNLHnF-3rwsV-VCI4Dbf6VsUrUvPv36Qv9XQ&oe=6B0767DF",
+          "images": [],
+          "destination": "https://ritualx.shop/products/150psi-tire-inflator-jump-starter?variant=49637367611544",
+          "link": "https://www.facebook.com/ads/library/?id=1734573897822295"
+        },
+        {
+          "library_id": "2136397917040391",
+          "status": "Active",
+          "started": "Oct 22, 2026",
+          "days": 30,
+          "page_name": "Ritualx",
+          "text": "💰 Ready to build a better saving habit? Meet the 10,000 Savings Challenge Box! Make saving money more fun by depositing money and tracking your progress one step at a time. ✨ A simple way to stay focused on your savings goals. 💵 Only AED 99 🚚 Cash on Delivery available Start your savings challenge today! 0:00 / 0:28",
+          "headline": "",
+          "ads_in_group": 3,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQM-pzZ19RvK-lS8YuB6-xkK4tN4QKpnZ0KnXaJyO1NJrFGh5uvK9-x_DjL61dftzZpXbmyUtV4-DDrPETStrhaBM34Yrs2pXUOXkTOJKA.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=77yXA91djswQ7kNvwFBcQ5L&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0ODc1NDY2MjM4ODQ2MCwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UvoedYp1GOCTaxausUQiEwRiLDawI22k7aGdQ74W3ExFhMXR8Bz7C9AOlTzPFpAIeT9wwnfc0CfgzUeef6MzvCk-vsndm08CW3LviiQy_2x9Tvbo6IeEv-zcPxk&oh=00_AQS3EtJ82o2XtrnA8OnpEQqHBQm04JbIScIbHOLqVQejQA&oe=6B077237",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQM-pzZ19RvK-lS8YuB6-xkK4tN4QKpnZ0KnXaJyO1NJrFGh5uvK9-x_DjL61dftzZpXbmyUtV4-DDrPETStrhaBM34Yrs2pXUOXkTOJKA.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=77yXA91djswQ7kNvwFBcQ5L&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE0ODc1NDY2MjM4ODQ2MCwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UvoedYp1GOCTaxausUQiEwRiLDawI22k7aGdQ74W3ExFhMXR8Bz7C9AOlTzPFpAIeT9wwnfc0CfgzUeef6MzvCk-vsndm08CW3LviiQy_2x9Tvbo6IeEv-zcPxk&oh=00_AQS3EtJ82o2XtrnA8OnpEQqHBQm04JbIScIbHOLqVQejQA&oe=6B077237",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859727733_2260109724558886_8573557004209150669_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5W5nZr4RRycQ7kNvwGMzoxt&_nc_oc=Adpa2OTaI7DPKu4P-kMSYxQV_Qb6WNbvunC5DHFtevZi367ElE5HG3lyvG-MCfZb6RY&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQQUBzO1l2BCkRqPNOle56DZ5mYbSX05IZhe2a4bbSMc0Q&oe=6B0767B1"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859727733_2260109724558886_8573557004209150669_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5W5nZr4RRycQ7kNvwGMzoxt&_nc_oc=Adpa2OTaI7DPKu4P-kMSYxQV_Qb6WNbvunC5DHFtevZi367ElE5HG3lyvG-MCfZb6RY&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQQUBzO1l2BCkRqPNOle56DZ5mYbSX05IZhe2a4bbSMc0Q&oe=6B0767B1",
+          "images": [],
+          "destination": "https://ritualx.shop/products/best-selling-cash-vault-money-savings-box-10000-savings-challenge-box-piggy-bank-for-adults-kids",
+          "link": "https://www.facebook.com/ads/library/?id=2136397917040391"
+        },
+        {
+          "library_id": "1841266130479492",
+          "status": "Active",
+          "started": "Nov 20, 2026",
+          "days": 1,
+          "page_name": "Ritualx",
+          "text": "💰 Ready to build a better saving habit? Meet the 10,000 Savings Challenge Box! Make saving money more fun by depositing money and tracking your progress one step at a time. ✨ A simple way to stay focused on your savings goals. 💵 Only AED 99 🚚 Cash on Delivery available Start your savings challenge today! 0:00 / 0:16",
+          "headline": "",
+          "ads_in_group": 3,
+          "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNar2RGR6ewOh_RnZ1_2Gg9ry0JSpLWoKXac67kGQUg6snclWdCPjmkAho7wNHh-rkqRwXLVA0Eb0NCbxIZPn5HjoqqXwMc1ZzqFybYmw.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=agIuF5q-MLkQ7kNvwHOox_K&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA4ODAwMDk5NDAxNjY4MSwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSlcCG20Zk04hrQHBEs4v5ZGWzOuthTGeXpFY9VlJZdwA&oe=6B074001",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNar2RGR6ewOh_RnZ1_2Gg9ry0JSpLWoKXac67kGQUg6snclWdCPjmkAho7wNHh-rkqRwXLVA0Eb0NCbxIZPn5HjoqqXwMc1ZzqFybYmw.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-lhr6-1.xx.fbcdn.net&_nc_ohc=agIuF5q-MLkQ7kNvwHOox_K&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTA4ODAwMDk5NDAxNjY4MSwiYXNzZXRfYWdlX2RheXMiOjI5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSlcCG20Zk04hrQHBEs4v5ZGWzOuthTGeXpFY9VlJZdwA&oe=6B074001",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859136482_1483843283937402_2648570493011141146_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ts9YVM0l2XcQ7kNvwGvJj4p&_nc_oc=AdrTbcsMiMjy6AV0kLnhm90KDte4tjX7ICpfmtGE8rUQ1N8ifxE27Pm9u8GVGcPkKGU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQQi8KwMgKVYBMW3kbciaHjSqYRHqf1URgjjAiY7WbMNbA&oe=6B0748C7"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/859136482_1483843283937402_2648570493011141146_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ts9YVM0l2XcQ7kNvwGvJj4p&_nc_oc=AdrTbcsMiMjy6AV0kLnhm90KDte4tjX7ICpfmtGE8rUQ1N8ifxE27Pm9u8GVGcPkKGU&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQQi8KwMgKVYBMW3kbciaHjSqYRHqf1URgjjAiY7WbMNbA&oe=6B0748C7",
+          "images": [],
+          "destination": "https://ritualx.shop/products/best-selling-cash-vault-money-savings-box-10000-savings-challenge-box-piggy-bank-for-adults-kids",
+          "link": "https://www.facebook.com/ads/library/?id=1841266130479492"
+        },
+        {
+          "library_id": "1113571977879649",
+          "status": "Active",
+          "started": "Oct 22, 2026",
+          "days": 30,
+          "page_name": "Ritualx",
+          "text": "🧼 Experience the freedom of cleaning with our high-pressure cordless washer. Featuring a powerful lithium battery and adjustable nozzles, it delivers professional results without any messy wires. 🔋 0:00 / 0:14 RITUALX.SHOP",
+          "headline": "High-Capacity Battery Power",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP3U8TKCBaIZtf_qeaj4MHcOhCp8Zilkt_tmqgo4nUFi5nh9UWiQbjwgHXYeiuwjayS8LWoVjiMd2K5HJ8gRke1reY8a3r4vo7zgixlZw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=Em85MXc4B14Q7kNvwEY8aIt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQyNjcwMTAzNjMyMTM2MSwiYXNzZXRfYWdlX2RheXMiOjMwLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRfI4YJLviwc2f45c1dDHG46kSQRBGNff3ewg8ji9LexQ&oe=6B075FBB",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP3U8TKCBaIZtf_qeaj4MHcOhCp8Zilkt_tmqgo4nUFi5nh9UWiQbjwgHXYeiuwjayS8LWoVjiMd2K5HJ8gRke1reY8a3r4vo7zgixlZw.mp4?_nc_cat=107&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=Em85MXc4B14Q7kNvwEY8aIt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQyNjcwMTAzNjMyMTM2MSwiYXNzZXRfYWdlX2RheXMiOjMwLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRfI4YJLviwc2f45c1dDHG46kSQRBGNff3ewg8ji9LexQ&oe=6B075FBB",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/856748143_1092760156887365_148198537148441648_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=I32WhpestgoQ7kNvwGqXSQO&_nc_oc=AdpXHuak8TJs1uX4POQUAwoMaXwkPRmZkwpoi8A3ehfne02GeSUiRfQQ3E4KkdjGE7I&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQSRc205lT989LjMizUfRFRzpzwNMHW5TdCL1k_Bth56SQ&oe=6B076C84"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/856748143_1092760156887365_148198537148441648_n.jpg?_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=I32WhpestgoQ7kNvwGqXSQO&_nc_oc=AdpXHuak8TJs1uX4POQUAwoMaXwkPRmZkwpoi8A3ehfne02GeSUiRfQQ3E4KkdjGE7I&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQSRc205lT989LjMizUfRFRzpzwNMHW5TdCL1k_Bth56SQ&oe=6B076C84",
+          "images": [],
+          "destination": "https://ritualx.shop/products/standard-portable-cordless-pressure-washer-gun-wireless-car-wash",
+          "link": "https://www.facebook.com/ads/library/?id=1113571977879649"
+        },
+        {
+          "library_id": "3302896163245936",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Ritualx",
+          "text": "🛞 Aired down for the dunes? Air back up on the sand with a 150 PSI cordless inflator, AED 249. No more crawling to a pump. 0:00 / 0:23 HTTPS://RITUALX.SHOP",
+          "headline": "Rechargeable, cordless",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMCdjX82eQxHlFqzTQuUM1JfoSa438YctlR38sL45yx2G8mhsLWaRT3IDIJchG40AriQ_lP7wX28uLY9cHnGyaxrDUCXZOxqEdvJDLWFQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=G7WnNRb-3eAQ7kNvwG33fpS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc1NDE1NTM2OTE0NDQ0OCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Un3ZASVJwRsXiZgmqjeUmB6NBIZ2FNcQHZV5kTv96etxccRLJ3yQD7gkUjzL4vuY3DGnrjndgUqSrGL-xLyoPbDA0MpvJuV4okiiQW9DhLkNwkV6jLSI9woNtWM&oh=00_AQR-y4x7qXwb5wz5sv7xMzAbHw6R1B3myZ5s4XPRMueSMg&oe=6B074E1A",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMCdjX82eQxHlFqzTQuUM1JfoSa438YctlR38sL45yx2G8mhsLWaRT3IDIJchG40AriQ_lP7wX28uLY9cHnGyaxrDUCXZOxqEdvJDLWFQ.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=G7WnNRb-3eAQ7kNvwG33fpS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTc1NDE1NTM2OTE0NDQ0OCwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Un3ZASVJwRsXiZgmqjeUmB6NBIZ2FNcQHZV5kTv96etxccRLJ3yQD7gkUjzL4vuY3DGnrjndgUqSrGL-xLyoPbDA0MpvJuV4okiiQW9DhLkNwkV6jLSI9woNtWM&oh=00_AQR-y4x7qXwb5wz5sv7xMzAbHw6R1B3myZ5s4XPRMueSMg&oe=6B074E1A",
+              "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/825017709_1592588085694853_2395398133694231998_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DndX54bjM0IQ7kNvwGU9L4o&_nc_oc=AdrspNWXBubVU581ADMeng32NWRxG6tINTYZDlzRp03ceDXpySQ1GgvI4HO5zCwzaiE&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQSfbRI7PUptolWkzUu_00z0734FQecxvpm8QGoifR9gfw&oe=6B0753E0"
+            }
+          ],
+          "poster": "https://scontent-lhr6-1.xx.fbcdn.net/v/t39.35426-6/825017709_1592588085694853_2395398133694231998_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DndX54bjM0IQ7kNvwGU9L4o&_nc_oc=AdrspNWXBubVU581ADMeng32NWRxG6tINTYZDlzRp03ceDXpySQ1GgvI4HO5zCwzaiE&_nc_zt=14&_nc_ht=scontent-lhr6-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQSfbRI7PUptolWkzUu_00z0734FQecxvpm8QGoifR9gfw&oe=6B0753E0",
+          "images": [],
+          "destination": "https://ritualx.shop/products/150psi-tire-inflator-jump-starter?variant=49637367611544",
+          "link": "https://www.facebook.com/ads/library/?id=3302896163245936"
+        },
+        {
+          "library_id": "1450372220313486",
+          "status": "Active",
+          "started": "Sep 25, 2026",
+          "days": 57,
+          "page_name": "Ritualx",
+          "text": "🛞 Aired down for the dunes? Air back up on the sand with a 150 PSI cordless inflator, AED 249. No more crawling to a pump. 0:00 / 0:26 HTTPS://RITUALX.SHOP",
+          "headline": "Rechargeable, cordless",
+          "ads_in_group": 1,
+          "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP7flI67iLJMMMy5Py2d54BRE_wXLjttWCeNRP321YA7FfzhzFw-jmM-Jrauz0p6WsYGvHXcfTeJeYA1elmIaIPoQQCB26kaznzUAf_-w.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=th-Xt7lbuasQ7kNvwGZQpBf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ0ODAzMjUwMzg4MzMwMSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRYeddmmcu3FOVIB_OtqbTKYlG4L8906tNL9BI5SNy-2Q&oe=6B075D5A",
+          "videos": 1,
+          "clips": [
+            {
+              "video": "https://video-lhr11-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQP7flI67iLJMMMy5Py2d54BRE_wXLjttWCeNRP321YA7FfzhzFw-jmM-Jrauz0p6WsYGvHXcfTeJeYA1elmIaIPoQQCB26kaznzUAf_-w.mp4?_nc_cat=100&_nc_sid=ef5aa3&_nc_ht=video-lhr11-1.xx.fbcdn.net&_nc_ohc=th-Xt7lbuasQ7kNvwGZQpBf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTQ0ODAzMjUwMzg4MzMwMSwiYXNzZXRfYWdlX2RheXMiOjU3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRYeddmmcu3FOVIB_OtqbTKYlG4L8906tNL9BI5SNy-2Q&oe=6B075D5A",
+              "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/822340571_2923257498038699_4576409774326082271_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-qQEWVClpfcQ7kNvwFn9m5K&_nc_oc=Ado6DbvucJ10KJ2TJ9SfAimkTKp2Ha7GrQDMdKqjSZEKK1TdqNXA6Jl-6xXkdYt92Mo&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQRAXDcxAZCNvkdqFNDlVbolmOIAbpXQafSM402NEjvHFA&oe=6B0742AB"
+            }
+          ],
+          "poster": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.35426-6/822340571_2923257498038699_4576409774326082271_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-qQEWVClpfcQ7kNvwFn9m5K&_nc_oc=Ado6DbvucJ10KJ2TJ9SfAimkTKp2Ha7GrQDMdKqjSZEKK1TdqNXA6Jl-6xXkdYt92Mo&_nc_zt=14&_nc_ht=scontent-lhr11-1.xx&_nc_gid=rsF6ovYW-jFC_NDVQqYp5g&_nc_ss=7f289&oh=00_AQRAXDcxAZCNvkdqFNDlVbolmOIAbpXQafSM402NEjvHFA&oe=6B0742AB",
+          "images": [],
+          "destination": "https://ritualx.shop/products/150psi-tire-inflator-jump-starter?variant=49637367611544",
+          "link": "https://www.facebook.com/ads/library/?id=1450372220313486"
+        }
+      ],
+      "ad_library_url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=ritualx.shop&search_type=keyword_exact_phrase",
+      "detail": "~10 results",
+      "captured": "2026-11-21T12:07:01",
+      "checked": "2026-11-21T12:07:01"
+    }
+  ]
+}
