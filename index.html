@@ -35,7 +35,11 @@ main{padding:12px 24px 40px;max-width:1300px;margin:0 auto}
 .ad .body{padding:10px 12px;display:flex;flex-direction:column;gap:6px;font-size:13px}
 .ad .txt{max-height:6.2em;overflow:auto;color:#cdd9d2}
 .ad .acts{display:flex;gap:6px;flex-wrap:wrap}
-.ad .acts a,.ad .acts button{font-size:12px;padding:4px 9px}
+.ad .acts a,.ad .acts button{font-size:12px;font-weight:600;padding:6px 12px;border:0;border-radius:8px;color:#fff;transition:filter .15s,transform .1s}
+.ad .acts a:hover,.ad .acts button:hover{filter:brightness(1.15);transform:translateY(-1px)}
+.ad .acts .b-visit{background:linear-gradient(135deg,#1fa971,#138a5a)}
+.ad .acts .b-copy{background:linear-gradient(135deg,#6b7bff,#4d5ad8)}
+.ad .acts .b-lib{background:linear-gradient(135deg,#1877f2,#0c5bd0)}
 .notice{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin:10px 0}
 select,input{background:#12201a;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font:inherit;min-width:0}
 .hide{display:none!important}
@@ -280,7 +284,7 @@ function adCard(a){
     <div><b>${esc(a.page_name)}</b> <span class="muted">· started ${esc(a.started || "?")}</span></div>
     ${a.headline ? `<div>${esc(a.headline)}</div>` : ""}
     <div class="txt">${esc(a.text)}</div>
-    <div class="acts">${dest ? `<a class="btn" href="${esc(dest)}" target="_blank" rel="noopener">Visit site</a><button data-copy>Copy link</button>` : ""}${link ? `<a class="btn" href="${esc(link)}" target="_blank" rel="noopener">Find in Ads Library</a>` : ""}</div>`;
+    <div class="acts">${dest ? `<a class="btn b-visit" href="${esc(dest)}" target="_blank" rel="noopener">Visit site</a><button class="b-copy" data-copy>Copy link</button>` : ""}${link ? `<a class="btn b-lib" href="${esc(link)}" target="_blank" rel="noopener">Find in Ads Library</a>` : ""}</div>`;
   const cb = body.querySelector("[data-copy]");
   if (cb) cb.onclick = async () => { try { await navigator.clipboard.writeText(dest); cb.textContent = "Copied ✓"; setTimeout(() => cb.textContent = "Copy link", 1200); } catch(e){ prompt("Copy:", dest); } };
   el.appendChild(body);
